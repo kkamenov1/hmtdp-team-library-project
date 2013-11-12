@@ -1,0 +1,13 @@
+c:\users\stanev\documents\visual studio 2012\Projects\HMTDPTeamLibraryProject\HMTDPTeamLibraryProject\bin\Debug\HMTDPTeamLibraryProject.exe.config
+c:\users\stanev\documents\visual studio 2012\Projects\HMTDPTeamLibraryProject\HMTDPTeamLibraryProject\bin\Debug\HMTDPTeamLibraryProject.exe
+c:\users\stanev\documents\visual studio 2012\Projects\HMTDPTeamLibraryProject\HMTDPTeamLibraryProject\bin\Debug\HMTDPTeamLibraryProject.pdb
+c:\users\stanev\documents\visual studio 2012\Projects\HMTDPTeamLibraryProject\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject.csprojResolveAssemblyReference.cache
+c:\users\stanev\documents\visual studio 2012\Projects\HMTDPTeamLibraryProject\HMTDPTeamLibraryProject\obj\Debug\MainWindow.baml
+c:\users\stanev\documents\visual studio 2012\Projects\HMTDPTeamLibraryProject\HMTDPTeamLibraryProject\obj\Debug\MainWindow.g.cs
+c:\users\stanev\documents\visual studio 2012\Projects\HMTDPTeamLibraryProject\HMTDPTeamLibraryProject\obj\Debug\App.g.cs
+c:\users\stanev\documents\visual studio 2012\Projects\HMTDPTeamLibraryProject\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject_MarkupCompile.cache
+c:\users\stanev\documents\visual studio 2012\Projects\HMTDPTeamLibraryProject\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject.g.resources
+c:\users\stanev\documents\visual studio 2012\Projects\HMTDPTeamLibraryProject\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject.Properties.Resources.resources
+c:\users\stanev\documents\visual studio 2012\Projects\HMTDPTeamLibraryProject\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject.csproj.GenerateResource.Cache
+c:\users\stanev\documents\visual studio 2012\Projects\HMTDPTeamLibraryProject\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject.exe
+c:\users\stanev\documents\visual studio 2012\Projects\HMTDPTeamLibraryProject\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject.pdb
