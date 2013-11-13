@@ -28,7 +28,7 @@ namespace HMTDPTeamLibraryProject
 
         void OnHomeButtonClick(object sender, RoutedEventArgs args)
         {
-            //mainFrame.Navigate(new Welcome());
+            mainFrame.Navigate(new LibraryListPage());
         }
 
         protected override void OnClosing(System.ComponentModel.CancelEventArgs e)
@@ -52,10 +52,10 @@ namespace HMTDPTeamLibraryProject
         private void OnExitButtonClick(object sender, RoutedEventArgs e)
         {
             //MessageBoxResult askResult = MessageBox.ShowQuestion("Do you want to Exit?", "The scheduler cannot remind you during offline mode!\nYes: Exit (offline mode)\nNo: Minimize to tray (working reminder)\nCancel: Cancel command", true);
-            //if (askResult == MessageBoxResult.Yes)
-            //{
-            //    Environment.Exit(0);
-            //}
+            if (true) // (askResult == MessageBoxResult.Yes)
+            {
+                Environment.Exit(0);
+            }
             //if (askResult == MessageBoxResult.No)
             //{
             //    WindowState = WindowState.Minimized;

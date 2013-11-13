@@ -19,7 +19,12 @@ namespace HMTDPTeamLibraryProject.ViewModels
                                Author = articleElement.Element("author").Value,
                                Title = articleElement.Element("title").Value,
                                Year = int.Parse(articleElement.Element("year").Value),
+                               Month = int.Parse(articleElement.Element("month").Value),
+                               Day = int.Parse(articleElement.Element("day").Value),
                                ImagePath = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), articleElement.Element("image").Value),
+                               Category = articleElement.Element("category").Value,
+                               Description = articleElement.Element("description").Value,
+                               Contents = articleElement.Element("contents").Value,
                            };
             return articleVMs;
         }
@@ -31,7 +36,13 @@ namespace HMTDPTeamLibraryProject.ViewModels
                 new XElement("author", article.Author),
                 new XElement("title", article.Title),
                 new XElement("year", article.Year),
-                new XElement("image", article.ImagePath)));
+                new XElement("month", article.Month),
+                new XElement("day", article.Day),
+                new XElement("image", article.ImagePath),
+                new XElement("category", article.Category),
+                new XElement("description", article.Description),
+                new XElement("contents", article.Contents)
+                ));
             root.Document.Save(documenPath);
         }
     }

@@ -1,57 +1,80 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <articles>
   <article>
-    <author>Samsung</author>
-    <title>Galaxy S4</title>
+    <author>Plamen</author>
+    <title>Sample title</title>
     <year>2013</year>
-    <image>..\..\Images\samsung-s4.jpg</image>
+    <month>11</month>
+    <day>13</day>
+    <image>..\..\Images\NinjaPic.png</image>
+    <category>No category</category>
+    <description>This is sample story</description>
+    <contents>Some longer contents</contents>
   </article>
   <article>
-    <author>HTC</author>
-    <title>WindowsPhone 8X</title>
+    <author>Plamen</author>
+    <title>Sample title 2</title>
     <year>2013</year>
-    <image>..\..\Images\htc-8x.jpg</image>
+    <month>11</month>
+    <day>13</day>
+    <image>..\..\Images\NinjaPic.png</image>
+    <category>No category</category>
+    <description>This is entered from the app</description>
+    <contents>Some looooooooooooooooonger longer longer longer longer longer contents</contents>
   </article>
   <article>
-    <author>Apple</author>
-    <title>iPhone 5</title>
-    <year>2012</year>
-    <image>..\..\..\Images\apple-iarticle-5.jpeg</image>
+    <author>Plamen</author>
+    <title>Art 3</title>
+    <year>2013</year>
+    <month>11</month>
+    <day>13</day>
+    <image>..\..\Images\NinjaPic.png</image>
+    <category>Test 3</category>
+    <description />
+    <contents />
   </article>
   <article>
-    <author>HTC</author>
-    <title>One</title>
-    <year>2014</year>
-    <image>..\..\..\Images\htc-8x.jpg</image>
+    <author>Plamen</author>
+    <title>Test 4</title>
+    <year>2013</year>
+    <month>11</month>
+    <day>13</day>
+    <image>..\..\Images\NinjaPic.png</image>
+    <category>No Cat</category>
+    <description />
+    <contents />
   </article>
   <article>
-    <author>Google</author>
-    <title>Nexus</title>
-    <year>2014</year>
-    <image>..\..\..\Images\htc-8x.jpg</image>
+    <author>Plamen</author>
+    <title>Test 4</title>
+    <year>2013</year>
+    <month>11</month>
+    <day>12</day>
+    <image>..\..\Images\NinjaPic.png</image>
+    <category>No category</category>
+    <description />
+    <contents />
   </article>
   <article>
-    <author>Nokia</author>
-    <title>Lumia 920</title>
-    <year>2014</year>
-    <image>..\..\..\Images\htc-8x.jpg</image>
+    <author>Test 5</author>
+    <title>Test 5</title>
+    <year>2013</year>
+    <month>11</month>
+    <day>12</day>
+    <image>..\..\Images\NinjaPic.png</image>
+    <category>test</category>
+    <description />
+    <contents />
   </article>
   <article>
-    <author>BlackBerry</author>
-    <title>Q10</title>
-    <year>2014</year>
-    <image>..\..\..\Images\htc-8x.jpg</image>
-  </article>
-  <article>
-    <author>Nokia</author>
-    <title>2100</title>
-    <year>2003</year>
-    <image>..\..\..\Images\htc-8x.jpg</image>
-  </article>
-  <article>
-    <author>sdf</author>
-    <title>sdf</title>
-    <year>2012</year>
-    <image />
+    <author>asds</author>
+    <title>adada</title>
+    <year>2013</year>
+    <month>0</month>
+    <day>0</day>
+    <image>..\..\Images\NinjaPic.png</image>
+    <category />
+    <description />
+    <contents />
   </article>
 </articles>
