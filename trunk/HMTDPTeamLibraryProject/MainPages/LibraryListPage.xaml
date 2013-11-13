@@ -1,0 +1,51 @@
+﻿<Page x:Class="HMTDPTeamLibraryProject.LibraryListPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      xmlns:viewModels="clr-namespace:HMTDPTeamLibraryProject.ViewModels"
+      d:DesignHeight="500" d:DesignWidth="800"
+	Title="LibraryListPage">
+    <Page.DataContext>
+        <viewModels:ArticleStoreViewModel/>
+    </Page.DataContext>
+    <Grid>
+        <TabControl>
+            <TabItem Header="All" DataContext="{Binding Articles}">
+                <ListView ItemsSource="{Binding}">
+                    <ListView.View>
+                        <GridView>
+                            <GridView.Columns>
+                                <GridViewColumn Header="Author" DisplayMemberBinding="{Binding Author}"/>
+                                <GridViewColumn Header="Title" DisplayMemberBinding="{Binding Title}"/>
+                                <GridViewColumn Header="Year" DisplayMemberBinding="{Binding Year}"/>                               
+                                <GridViewColumn Header="Image">
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <Image Source="{Binding ImagePath}" Width="30"/>
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                            </GridView.Columns>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </TabItem>
+            <TabItem Header="Add New Article">
+                <StackPanel>
+                    
+                    <StackPanel DataContext="{Binding NewArticle}" >
+                        <TextBlock>Author</TextBlock>
+                        <TextBox Text="{Binding Author}" Width="100"/>
+                        <TextBlock>Title</TextBlock>
+                        <TextBox Text="{Binding Title}" Width="100"/>
+                        <TextBlock>Year</TextBlock>
+                        <TextBox Text="{Binding Year}" Width="100"/>
+                    </StackPanel>
+                    <Button Command="{Binding AddNew}">Add</Button>
+                </StackPanel>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Page>
