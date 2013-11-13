@@ -24,5 +24,15 @@ namespace HMTDPTeamLibraryProject
         {
             InitializeComponent();
         }
+
+        private void AddNewArticleClick(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Uri("MainPages/AddNewArticlePage.xaml", UriKind.Relative));
+        }
+
+        private void OpenArticleClick(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

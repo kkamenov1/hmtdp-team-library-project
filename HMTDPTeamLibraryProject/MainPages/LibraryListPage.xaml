@@ -11,41 +11,73 @@
         <viewModels:ArticleStoreViewModel/>
     </Page.DataContext>
     <Grid>
-        <TabControl>
-            <TabItem Header="All" DataContext="{Binding Articles}">
-                <ListView ItemsSource="{Binding}">
-                    <ListView.View>
-                        <GridView>
-                            <GridView.Columns>
-                                <GridViewColumn Header="Author" DisplayMemberBinding="{Binding Author}"/>
-                                <GridViewColumn Header="Title" DisplayMemberBinding="{Binding Title}"/>
-                                <GridViewColumn Header="Year" DisplayMemberBinding="{Binding Year}"/>                               
-                                <GridViewColumn Header="Image">
-                                    <GridViewColumn.CellTemplate>
-                                        <DataTemplate>
-                                            <Image Source="{Binding ImagePath}" Width="30"/>
-                                        </DataTemplate>
-                                    </GridViewColumn.CellTemplate>
-                                </GridViewColumn>
-                            </GridView.Columns>
-                        </GridView>
-                    </ListView.View>
-                </ListView>
-            </TabItem>
-            <TabItem Header="Add New Article">
-                <StackPanel>
-                    
-                    <StackPanel DataContext="{Binding NewArticle}" >
-                        <TextBlock>Author</TextBlock>
-                        <TextBox Text="{Binding Author}" Width="100"/>
-                        <TextBlock>Title</TextBlock>
-                        <TextBox Text="{Binding Title}" Width="100"/>
-                        <TextBlock>Year</TextBlock>
-                        <TextBox Text="{Binding Year}" Width="100"/>
-                    </StackPanel>
-                    <Button Command="{Binding AddNew}">Add</Button>
-                </StackPanel>
-            </TabItem>
-        </TabControl>
+        <Grid.Background>
+            <LinearGradientBrush Opacity="0.1">
+                <GradientStop Color="HotPink"  Offset="0.5"/>
+                <GradientStop Color="RosyBrown"  Offset="0.6"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="45"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Orientation="Horizontal">
+            <Button
+                Click="AddNewArticleClick"
+                    BorderBrush="AliceBlue"
+                BorderThickness="10"
+                    Foreground="DarkSlateGray"
+                    FontSize="14"
+                    FontStyle="Oblique"
+                    FontWeight="SemiBold"
+                    HorizontalContentAlignment="Center"
+                    VerticalContentAlignment="Center"
+                    Content="New Article" ToolTip="Write New Article" Margin="5,5,5,5">
+                <Button.Background>
+                    <LinearGradientBrush Opacity="0.01">
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+
+            <Button
+                Click="OpenArticleClick"
+                    BorderBrush="AliceBlue"
+                BorderThickness="10"
+                    Foreground="DarkSlateGray"
+                    FontSize="14"
+                    FontStyle="Oblique"
+                    FontWeight="SemiBold"
+                    HorizontalContentAlignment="Center"
+                    VerticalContentAlignment="Center"
+                    Content="Open Article" ToolTip="Open Selected Article" Margin="5,5,5,5">
+                <Button.Background>
+                    <LinearGradientBrush Opacity="0.01">
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+        </StackPanel>
+        <ListView Grid.Row="1" Background="Transparent" ItemsSource="{Binding Articles}" FontSize="13">
+            <ListView.View>
+                <GridView>
+                    <GridView.Columns>
+                        <GridViewColumn Width="100" Header="Author" DisplayMemberBinding="{Binding Author}"/>
+                        <GridViewColumn Width="100" Header="Title" DisplayMemberBinding="{Binding Title}"/>
+                        <GridViewColumn Width="50" Header="Year" DisplayMemberBinding="{Binding Year}"/>
+                        <GridViewColumn Width="50" Header="Month" DisplayMemberBinding="{Binding Month}"/>
+                        <GridViewColumn Width="50" Header="Day" DisplayMemberBinding="{Binding Day}"/>
+                        <GridViewColumn Width="70" Header="Image">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Image Source="{Binding ImagePath}" Width="50"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Width="100" Header="Category" DisplayMemberBinding="{Binding Category}"/>
+                        <GridViewColumn Width="135" Header="Description" DisplayMemberBinding="{Binding Description}"/>
+                        <GridViewColumn Width="105" Header="Contents" DisplayMemberBinding="{Binding Contents}"/>
+                    </GridView.Columns>
+                </GridView>
+            </ListView.View>
+        </ListView>            
     </Grid>
 </Page>

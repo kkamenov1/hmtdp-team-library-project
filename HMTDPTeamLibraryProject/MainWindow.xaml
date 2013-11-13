@@ -11,9 +11,9 @@
                 <ControlTemplate TargetType="Frame">
                     <DockPanel >
                         <DockPanel.Background>
-                            <LinearGradientBrush Opacity="0.2">
-                                <GradientStop Color="Aqua"  Offset="0.5"/>
-                                <GradientStop Color="DodgerBlue"  Offset="0.6"/>
+                            <LinearGradientBrush Opacity="0.1">
+                                <GradientStop Color="HotPink"  Offset="0.5"/>
+                                <GradientStop Color="RosyBrown"  Offset="0.6"/>
                             </LinearGradientBrush>
                         </DockPanel.Background>
                         <Grid
@@ -77,21 +77,21 @@
                             </Button>
 
 
-                            <Button Grid.Column="4" ToolTip="Using terms and information" 
+                            <!--<Button Grid.Column="4" ToolTip="Using terms and information" 
                                 Style="{StaticResource InfoButton1}" 
                                 Click="OnInfoButtonClick" Grid.ColumnSpan="2" Margin="0,0,37,-6">
                                 <Button.RenderTransform>
                                     <ScaleTransform ScaleX="0.65" ScaleY="0.65"></ScaleTransform>
                                 </Button.RenderTransform>
-                            </Button>
+                            </Button>-->
 
-                            <Button Grid.Column="8" ToolTip="Check your current schedule"
+                            <!--<Button Grid.Column="8" ToolTip="Check your current schedule"
                                 Style="{StaticResource CheckButton1}" 
                                 Click="OnCheckButtonClick" Margin="0,0,11,5" >
                                 <Button.RenderTransform>
                                     <ScaleTransform ScaleX="1.3" ScaleY="1.3"></ScaleTransform>
                                 </Button.RenderTransform>
-                            </Button>
+                            </Button>-->
 
                         </Grid>
 
