@@ -11,3 +11,8 @@ c:\users\stanev\documents\visual studio 2012\Projects\HMTDPTeamLibraryProject\HM
 c:\users\stanev\documents\visual studio 2012\Projects\HMTDPTeamLibraryProject\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject.csproj.GenerateResource.Cache
 c:\users\stanev\documents\visual studio 2012\Projects\HMTDPTeamLibraryProject\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject.exe
 c:\users\stanev\documents\visual studio 2012\Projects\HMTDPTeamLibraryProject\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject.pdb
+C:\Users\Stanev\Documents\Visual Studio 2012\Projects\HMTDPTeamLibraryProject\HMTDPTeamLibraryProject\obj\Debug\App.baml
+C:\Users\Stanev\Documents\Visual Studio 2012\Projects\HMTDPTeamLibraryProject\HMTDPTeamLibraryProject\obj\Debug\MainPages\LibraryListPage.baml
+C:\Users\Stanev\Documents\Visual Studio 2012\Projects\HMTDPTeamLibraryProject\HMTDPTeamLibraryProject\obj\Debug\MainPages\LibraryListPage.g.cs
+C:\Users\Stanev\Documents\Visual Studio 2012\Projects\HMTDPTeamLibraryProject\HMTDPTeamLibraryProject\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Stanev\Documents\Visual Studio 2012\Projects\HMTDPTeamLibraryProject\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject_MarkupCompile.lref
