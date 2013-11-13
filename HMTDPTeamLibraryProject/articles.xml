@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<articles>
+  <article>
+    <author>Samsung</author>
+    <title>Galaxy S4</title>
+    <year>2013</year>
+    <image>..\..\Images\samsung-s4.jpg</image>
+  </article>
+  <article>
+    <author>HTC</author>
+    <title>WindowsPhone 8X</title>
+    <year>2013</year>
+    <image>..\..\Images\htc-8x.jpg</image>
+  </article>
+  <article>
+    <author>Apple</author>
+    <title>iPhone 5</title>
+    <year>2012</year>
+    <image>..\..\..\Images\apple-iarticle-5.jpeg</image>
+  </article>
+  <article>
+    <author>HTC</author>
+    <title>One</title>
+    <year>2014</year>
+    <image>..\..\..\Images\htc-8x.jpg</image>
+  </article>
+  <article>
+    <author>Google</author>
+    <title>Nexus</title>
+    <year>2014</year>
+    <image>..\..\..\Images\htc-8x.jpg</image>
+  </article>
+  <article>
+    <author>Nokia</author>
+    <title>Lumia 920</title>
+    <year>2014</year>
+    <image>..\..\..\Images\htc-8x.jpg</image>
+  </article>
+  <article>
+    <author>BlackBerry</author>
+    <title>Q10</title>
+    <year>2014</year>
+    <image>..\..\..\Images\htc-8x.jpg</image>
+  </article>
+  <article>
+    <author>Nokia</author>
+    <title>2100</title>
+    <year>2003</year>
+    <image>..\..\..\Images\htc-8x.jpg</image>
+  </article>
+  <article>
+    <author>sdf</author>
+    <title>sdf</title>
+    <year>2012</year>
+    <image />
+  </article>
+</articles>
