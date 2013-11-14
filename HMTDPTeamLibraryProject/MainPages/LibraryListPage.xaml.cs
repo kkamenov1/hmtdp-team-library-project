@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HMTDPTeamLibraryProject.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -32,6 +33,25 @@ namespace HMTDPTeamLibraryProject
 
         private void OpenArticleClick(object sender, RoutedEventArgs e)
         {
+            ArticleViewModel operatedNode = (ArticleViewModel)mainOperateList.SelectedItem;
+            if (operatedNode != null)
+            {
+                ReadArticlePage basicArticleReadPage = new ReadArticlePage();
+                ReadArticlePage.workNodeTransfer = operatedNode;
+                NavigationService.Navigate(basicArticleReadPage);
+
+                //this.NavigationService.Navigate(new Uri("MainPages/ReadArticlePage.xaml", UriKind.Relative));
+            }
+        }
+
+        private void ListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            var stores = (this.DataContext as ArticleStoreViewModel);
+            var selected = e.AddedItems;
+            if (stores.Articles.Count() > 0)
+            {
+                stores.ChangeSelection(selected[0]);
+            }
 
         }
     }

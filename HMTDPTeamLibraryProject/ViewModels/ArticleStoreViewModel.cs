@@ -15,6 +15,7 @@ namespace HMTDPTeamLibraryProject.ViewModels
         private ObservableCollection<ArticleViewModel> articlesViewModels;
 
         private ICommand addNewCommand;
+        private ICommand removeCommand;
 
         private string successMessage;
 
@@ -25,7 +26,7 @@ namespace HMTDPTeamLibraryProject.ViewModels
 
         public ArticleStoreViewModel()
         {
-            this.ArticleStoreDocumentPath = "..\\..\\articles.xml";
+            this.ArticleStoreDocumentPath = MainWindow.mainFilePath;
             this.newArticleViewModel = new ArticleViewModel();
         }
 
@@ -41,6 +42,18 @@ namespace HMTDPTeamLibraryProject.ViewModels
             }
         }
 
+        public ICommand Remove
+        {
+            get
+            {
+                if (this.removeCommand == null)
+                {
+                    this.removeCommand = new RelayCommand(this.HandleRemoveCommand);
+                }
+                return this.removeCommand;
+            }
+        }
+
         public ArticleViewModel NewArticle
         {
             get
@@ -52,6 +65,25 @@ namespace HMTDPTeamLibraryProject.ViewModels
                 this.newArticleViewModel = value;
                 this.OnPropertyChanged("NewArticle");
             }
+        }
+
+        private ArticleViewModel selectedStore;
+        public ArticleViewModel SelectedStore
+        {
+            get
+            {
+                return this.selectedStore;
+            }
+            set
+            {
+                this.selectedStore = value;
+                OnPropertyChanged("SelectedStore");
+            }
+        }
+
+        public void ChangeSelection(object store)
+        {
+            this.SelectedStore = store as ArticleViewModel;
         }
 
         public string SuccessMessage
@@ -110,12 +142,31 @@ namespace HMTDPTeamLibraryProject.ViewModels
             {
                 DataPersister.AddArticle(this.ArticleStoreDocumentPath, this.NewArticle);
                 this.Articles = DataPersister.GetArticle(this.ArticleStoreDocumentPath);
-                this.SetSuccessMessage(string.Format("{0} {1} successfully added!", this.NewArticle.Author, this.NewArticle.Title));
+                this.SetSuccessMessage(string.Format("{1}, by {0} successfully added!", this.NewArticle.Author, this.NewArticle.Title));
                 this.NewArticle = new ArticleViewModel();
             }
             catch (Exception ex)
             {
                 this.SetErrorMessage(string.Format("Adding {0} {1} failed with exception {2} ", this.NewArticle.Author, this.NewArticle.Title, ex.Message));
+            }
+        }
+
+        private void HandleRemoveCommand(object obj)
+        {
+            try
+            {
+                if (this.selectedStore == null)
+                {
+                    return;
+                }
+                DataPersister.RemoveStore(this.ArticleStoreDocumentPath, this.SelectedStore);
+                this.Articles = DataPersister.GetArticle(this.ArticleStoreDocumentPath);
+                this.SetSuccessMessage(string.Format("{1}, by {0} successfully removed!", this.NewArticle.Author, this.NewArticle.Title));
+                this.SelectedStore = null;
+            }
+            catch (Exception ex)
+            {
+                this.SetErrorMessage(string.Format("Removing {0} failed with exception {1} ", this.NewArticle.Title, ex.Message));
             }
         }
 

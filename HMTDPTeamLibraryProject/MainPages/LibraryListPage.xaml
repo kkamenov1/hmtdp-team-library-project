@@ -20,6 +20,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="45"/>
             <RowDefinition Height="1*"/>
+            <RowDefinition Height="30"/>
         </Grid.RowDefinitions>
         <StackPanel Grid.Row="0" Orientation="Horizontal">
             <Button
@@ -55,8 +56,26 @@
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
+
+
+            <Button Grid.Column="0" Command="{Binding Remove}"
+                    BorderBrush="AliceBlue"
+                BorderThickness="10"
+                    Foreground="DarkSlateGray"
+                    FontSize="14"
+                    FontStyle="Oblique"
+                    FontWeight="SemiBold"
+                    HorizontalContentAlignment="Center"
+                    VerticalContentAlignment="Center"
+                    Content="Remove Article" ToolTip="Remove Selected Article" Margin="5,5,5,5">
+                <Button.Background>
+                    <LinearGradientBrush Opacity="0.01">
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+
         </StackPanel>
-        <ListView Grid.Row="1" Background="Transparent" ItemsSource="{Binding Articles}" FontSize="13">
+        <ListView SelectionChanged="ListView_SelectionChanged" Name="mainOperateList" Grid.Row="1" Background="Transparent" ItemsSource="{Binding Articles}" FontSize="13">
             <ListView.View>
                 <GridView>
                     <GridView.Columns>
@@ -78,6 +97,16 @@
                     </GridView.Columns>
                 </GridView>
             </ListView.View>
-        </ListView>            
+        </ListView>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="300"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Orientation="Horizontal" Grid.Column="1" DataContext="{Binding SelectedStore}">
+                <Label>Article name:</Label>
+                <TextBox Text="{Binding Title}"/>
+            </StackPanel>
+        </Grid>
     </Grid>
 </Page>
