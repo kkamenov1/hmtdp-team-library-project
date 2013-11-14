@@ -1,0 +1,151 @@
+﻿<Page x:Class="HMTDPTeamLibraryProject.ReadArticlePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="500" d:DesignWidth="800"
+	Title="ReadArticlePage" Loaded="Page_Loaded">
+
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush Opacity="0.3">
+                <GradientStop Color="AliceBlue"  Offset="0.3"/>
+                <GradientStop Color="Aquamarine"  Offset="0.6"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="15"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="15"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="7*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBox Grid.Column="1" Grid.Row="1" Margin="40,0,40,0"
+                    Name="titleArticle"
+                    SpellCheck.IsEnabled="True" 
+                    AcceptsReturn="True" 
+                    AutoWordSelection="True" 
+                    BorderBrush="Transparent"
+                    Foreground="SteelBlue"
+                    IsReadOnly="True"
+                    FontSize="25"
+                    FontStyle="Oblique"
+                    FontWeight="SemiBold"
+                    HorizontalContentAlignment="Center"
+                    VerticalAlignment="Center"
+                    ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                    ScrollViewer.VerticalScrollBarVisibility="Auto">
+            <TextBox.Background>
+                <LinearGradientBrush Opacity="0.11">
+                    <GradientStop Color="DarkSlateGray"  Offset="3"/>
+                    <GradientStop Color="Aquamarine" Offset="3"/>
+                </LinearGradientBrush>
+            </TextBox.Background>
+        </TextBox>
+
+        <Grid Grid.Row="2" Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Grid.Row="0" Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="13" >By:</TextBlock>
+            <TextBlock Grid.Row="1" Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="13" >Date:</TextBlock>
+            <TextBlock Grid.Row="2" Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="13" >Category:</TextBlock>
+            <TextBlock Grid.Row="3" Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="13" >Description:</TextBlock>
+            <TextBlock Grid.Row="4" Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="13" >Text:</TextBlock>
+
+            <TextBox Name="authorTextBox" Grid.Row="0" Grid.Column="1"  FontSize="14" IsReadOnly="True" Background="Transparent" Grid.ColumnSpan="4" />
+            <TextBox Name="dateTextBox" Grid.Row="1" Grid.Column="1"  FontSize="14" IsReadOnly="True" Background="Transparent" Grid.ColumnSpan="4" />
+            <TextBox Name="categoryTextBox" Grid.Row="2" Grid.Column="1"  FontSize="14" IsReadOnly="True" Background="Transparent" Grid.ColumnSpan="4"/>
+            <TextBox Name="descriptionTextBox" Grid.Row="3" Grid.Column="1"  FontSize="14" IsReadOnly="True" Background="Transparent" Grid.ColumnSpan="4" />
+            <TextBox Name="contentsTextBox" FontSize="16" Grid.Row="5" IsReadOnly="True" TextWrapping="Wrap"  Background="Transparent" Grid.ColumnSpan="9" Grid.RowSpan="7"/>
+
+            <Button Grid.Row="0" Grid.Column="6" Grid.ColumnSpan="2" Margin="15,0,15,0"
+                Click="AddNewArticleClick"
+                    BorderBrush="AliceBlue"
+                BorderThickness="10"
+                    Foreground="DarkSlateGray"
+                    FontSize="14"
+                    FontStyle="Normal"
+                    FontWeight="SemiBold"
+                    HorizontalContentAlignment="Center"
+                    VerticalContentAlignment="Center"
+                    Content="New Article" ToolTip="Write New Article" >
+                <Button.Background>
+                    <LinearGradientBrush Opacity="0.2">
+                        <GradientStop Color="DarkSlateGray"  Offset="3"/>
+                        <GradientStop Color="Aquamarine" Offset="3"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+
+            <Button Grid.Row="1" Grid.Column="6" Grid.ColumnSpan="2" Margin="15,17"
+                Click="ViewArticlesClick"
+                    BorderBrush="AliceBlue"
+                BorderThickness="10"
+                    Foreground="DarkSlateGray"
+                    FontSize="14"
+                    FontStyle="Normal"
+                    FontWeight="SemiBold"
+                    HorizontalContentAlignment="Center"
+                    VerticalContentAlignment="Center"
+                    Content="All Articles" ToolTip="View All Articles" Grid.RowSpan="2" >
+                <Button.Background>
+                    <LinearGradientBrush Opacity="0.2">
+                        <GradientStop Color="DarkSlateGray"  Offset="3"/>
+                        <GradientStop Color="Aquamarine" Offset="3"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+
+            <Button Name="editButton" Grid.Row="3" Grid.Column="6" Grid.ColumnSpan="2" Margin="15,0"
+                Click="EditArticlesClick"
+                    BorderBrush="AliceBlue"
+                    BorderThickness="10"
+                    Foreground="DarkSlateGray"
+                    FontSize="14"
+                    FontStyle="Normal"
+                    FontWeight="SemiBold"
+                    HorizontalContentAlignment="Center"
+                    VerticalContentAlignment="Center"
+                    Content="Edit Article" ToolTip="Edit Current Articles" >
+                <Button.Background>
+                    <LinearGradientBrush Opacity="0.2">
+                        <GradientStop Color="DarkSlateGray"  Offset="3"/>
+                        <GradientStop Color="Aquamarine" Offset="3"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+
+        </Grid>
+    </Grid>
+</Page>
