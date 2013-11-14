@@ -24,57 +24,13 @@
   </article>
   <article>
     <author>Plamen</author>
-    <title>Art 3</title>
-    <year>2013</year>
-    <month>11</month>
-    <day>13</day>
-    <image>..\..\Images\NinjaPic.png</image>
-    <category>Test 3</category>
-    <description />
-    <contents />
-  </article>
-  <article>
-    <author>Plamen</author>
-    <title>Test 4</title>
-    <year>2013</year>
-    <month>11</month>
-    <day>13</day>
-    <image>..\..\Images\NinjaPic.png</image>
-    <category>No Cat</category>
-    <description />
-    <contents />
-  </article>
-  <article>
-    <author>Plamen</author>
     <title>Test 4</title>
     <year>2013</year>
     <month>11</month>
     <day>12</day>
     <image>..\..\Images\NinjaPic.png</image>
     <category>No category</category>
-    <description />
-    <contents />
-  </article>
-  <article>
-    <author>Test 5</author>
-    <title>Test 5</title>
-    <year>2013</year>
-    <month>11</month>
-    <day>12</day>
-    <image>..\..\Images\NinjaPic.png</image>
-    <category>test</category>
-    <description />
-    <contents />
-  </article>
-  <article>
-    <author>asds</author>
-    <title>adada</title>
-    <year>2013</year>
-    <month>0</month>
-    <day>0</day>
-    <image>..\..\Images\NinjaPic.png</image>
-    <category />
-    <description />
-    <contents />
+    <description></description>
+    <contents>new new new edit</contents>
   </article>
 </articles>

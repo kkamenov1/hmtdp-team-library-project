@@ -20,6 +20,8 @@ namespace HMTDPTeamLibraryProject
     /// </summary>
     public partial class MainWindow : Window
     {
+        public static string mainFilePath = "..\\..\\articles.xml";
+
         public MainWindow()
         {
             InitializeComponent();

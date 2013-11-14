@@ -45,5 +45,20 @@ namespace HMTDPTeamLibraryProject.ViewModels
                 ));
             root.Document.Save(documenPath);
         }
+
+        internal static void RemoveStore(string documenPath, ArticleViewModel store)
+        {
+            var root = XDocument.Load(documenPath).Root;
+            foreach (var storeChild in root.Elements("article"))
+            {
+                if (storeChild.Element("author").Value == store.Author && storeChild.Element("title").Value == store.Title &&
+                    storeChild.Element("category").Value == store.Category && storeChild.Element("contents").Value == store.Contents)
+                {
+                    storeChild.Remove();
+                    root.Document.Save(documenPath);
+                    break;
+                }
+            }
+        }
     }
 }
