@@ -59,6 +59,9 @@
     <Compile Include="MainPages\ReadArticlePage.xaml.cs">
       <DependentUpon>ReadArticlePage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="MainPages\StartPage.xaml.cs">
+      <DependentUpon>StartPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ViewModels\ArticleStoreViewModel.cs" />
     <Compile Include="ViewModels\ArticleViewModel.cs" />
     <Compile Include="ViewModels\DataPersister.cs" />
@@ -89,6 +92,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="MainPages\ReadArticlePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainPages\StartPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -127,6 +134,14 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\NinjaPic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\SEB-Ninja1.png" />
+    <Resource Include="Images\SEB-Ninja2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\SEB-Ninja3.png" />
+    <Resource Include="Images\SEB-Ninja4.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

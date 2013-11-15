@@ -2,17 +2,6 @@
 <articles>
   <article>
     <author>Plamen</author>
-    <title>Sample title</title>
-    <year>2013</year>
-    <month>11</month>
-    <day>13</day>
-    <image>..\..\Images\NinjaPic.png</image>
-    <category>No category</category>
-    <description>This is sample story</description>
-    <contents>Some longer contents</contents>
-  </article>
-  <article>
-    <author>Plamen</author>
     <title>Sample title 2</title>
     <year>2013</year>
     <month>11</month>
@@ -32,5 +21,27 @@
     <category>No category</category>
     <description></description>
     <contents>new new new edit</contents>
+  </article>
+  <article>
+    <author>Plamen</author>
+    <title>Sample title</title>
+    <year>2013</year>
+    <month>11</month>
+    <day>13</day>
+    <image>..\..\Images\NinjaPic.png</image>
+    <category>No category</category>
+    <description>This is sample story</description>
+    <contents>Some longer contents sdfdsfsfs</contents>
+  </article>
+  <article>
+    <author>cvx</author>
+    <title>vxvx</title>
+    <year>2013</year>
+    <month>1</month>
+    <day>1</day>
+    <image>..\..\Images\NinjaPic.png</image>
+    <category>2424</category>
+    <description>242</description>
+    <contents>42424242</contents>
   </article>
 </articles>

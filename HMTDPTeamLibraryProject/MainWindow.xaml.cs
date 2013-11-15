@@ -25,12 +25,12 @@ namespace HMTDPTeamLibraryProject
         public MainWindow()
         {
             InitializeComponent();
-            mainFrame.Navigate(new LibraryListPage());
+            mainFrame.Navigate(new StartPage());
         }
 
         void OnHomeButtonClick(object sender, RoutedEventArgs args)
         {
-            mainFrame.Navigate(new LibraryListPage());
+            mainFrame.Navigate(new StartPage());
         }
 
         protected override void OnClosing(System.ComponentModel.CancelEventArgs e)
