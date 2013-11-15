@@ -12,8 +12,8 @@
                     <DockPanel >
                         <DockPanel.Background>
                             <LinearGradientBrush Opacity="0.1">
-                                <GradientStop Color="HotPink"  Offset="0.5"/>
-                                <GradientStop Color="RosyBrown"  Offset="0.6"/>
+                                <GradientStop Color="Aqua"  Offset="0.5"/>
+                                <GradientStop Color="Aquamarine"  Offset="0.6"/>
                             </LinearGradientBrush>
                         </DockPanel.Background>
                         <Grid

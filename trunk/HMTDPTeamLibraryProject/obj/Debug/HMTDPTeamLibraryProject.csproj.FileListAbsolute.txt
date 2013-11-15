@@ -38,3 +38,5 @@ C:\Users\Stanev\Documents\Visual Studio 2012\Projects\HMTDPTeamLibraryProjectSou
 C:\Users\Stanev\Documents\Visual Studio 2012\Projects\HMTDPTeamLibraryProjectSourse\HMTDPTeamLibraryProject\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject.csproj.GenerateResource.Cache
 C:\Users\Stanev\Documents\Visual Studio 2012\Projects\HMTDPTeamLibraryProjectSourse\HMTDPTeamLibraryProject\HMTDPTeamLibraryProject\obj\Debug\MainPages\ReadArticlePage.baml
 C:\Users\Stanev\Documents\Visual Studio 2012\Projects\HMTDPTeamLibraryProjectSourse\HMTDPTeamLibraryProject\HMTDPTeamLibraryProject\obj\Debug\MainPages\ReadArticlePage.g.cs
+C:\Users\Stanev\Documents\Visual Studio 2012\Projects\HMTDPTeamLibraryProjectSourse\HMTDPTeamLibraryProject\HMTDPTeamLibraryProject\obj\Debug\MainPages\StartPage.baml
+C:\Users\Stanev\Documents\Visual Studio 2012\Projects\HMTDPTeamLibraryProjectSourse\HMTDPTeamLibraryProject\HMTDPTeamLibraryProject\obj\Debug\MainPages\StartPage.g.cs
