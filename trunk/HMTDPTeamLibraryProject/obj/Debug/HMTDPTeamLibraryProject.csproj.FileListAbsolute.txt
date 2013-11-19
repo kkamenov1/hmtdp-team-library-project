@@ -43,3 +43,27 @@ C:\Users\Stanev\Documents\Visual Studio 2012\Projects\HMTDPTeamLibraryProjectSou
 C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\hmtdp-team-library-project\HMTDPTeamLibraryProject\bin\Debug\HMTDPTeamLibraryProject.exe.config
 C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject.exe
 C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject.pdb
+C:\Users\Ico\Documents\Visual Studio 2012\Projects\OOP\10. Team Work\HMTDPTeamLibraryProject\bin\Debug\HMTDPTeamLibraryProject.exe.config
+C:\Users\Ico\Documents\Visual Studio 2012\Projects\OOP\10. Team Work\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject.exe
+C:\Users\Ico\Documents\Visual Studio 2012\Projects\OOP\10. Team Work\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject.pdb
+C:\Users\Ico\Documents\Visual Studio 2012\Projects\OOP\10. Team Work\HMTDPTeamLibraryProject\bin\Debug\HMTDPTeamLibraryProject.exe
+C:\Users\Ico\Documents\Visual Studio 2012\Projects\OOP\10. Team Work\HMTDPTeamLibraryProject\bin\Debug\HMTDPTeamLibraryProject.pdb
+C:\Users\Ico\Documents\Visual Studio 2012\Projects\OOP\10. Team Work\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject.csprojResolveAssemblyReference.cache
+C:\Users\Ico\Documents\Visual Studio 2012\Projects\OOP\10. Team Work\HMTDPTeamLibraryProject\obj\Debug\MainWindow.baml
+C:\Users\Ico\Documents\Visual Studio 2012\Projects\OOP\10. Team Work\HMTDPTeamLibraryProject\obj\Debug\MainPages\ReadArticlePage.baml
+C:\Users\Ico\Documents\Visual Studio 2012\Projects\OOP\10. Team Work\HMTDPTeamLibraryProject\obj\Debug\MainPages\StartPage.baml
+C:\Users\Ico\Documents\Visual Studio 2012\Projects\OOP\10. Team Work\HMTDPTeamLibraryProject\obj\Debug\App.baml
+C:\Users\Ico\Documents\Visual Studio 2012\Projects\OOP\10. Team Work\HMTDPTeamLibraryProject\obj\Debug\MainPages\AddNewArticlePage.g.cs
+C:\Users\Ico\Documents\Visual Studio 2012\Projects\OOP\10. Team Work\HMTDPTeamLibraryProject\obj\Debug\MainPages\LibraryListPage.g.cs
+C:\Users\Ico\Documents\Visual Studio 2012\Projects\OOP\10. Team Work\HMTDPTeamLibraryProject\obj\Debug\MainWindow.g.cs
+C:\Users\Ico\Documents\Visual Studio 2012\Projects\OOP\10. Team Work\HMTDPTeamLibraryProject\obj\Debug\MainPages\ReadArticlePage.g.cs
+C:\Users\Ico\Documents\Visual Studio 2012\Projects\OOP\10. Team Work\HMTDPTeamLibraryProject\obj\Debug\MainPages\StartPage.g.cs
+C:\Users\Ico\Documents\Visual Studio 2012\Projects\OOP\10. Team Work\HMTDPTeamLibraryProject\obj\Debug\App.g.cs
+C:\Users\Ico\Documents\Visual Studio 2012\Projects\OOP\10. Team Work\HMTDPTeamLibraryProject\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Ico\Documents\Visual Studio 2012\Projects\OOP\10. Team Work\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject_MarkupCompile.cache
+C:\Users\Ico\Documents\Visual Studio 2012\Projects\OOP\10. Team Work\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject_MarkupCompile.lref
+C:\Users\Ico\Documents\Visual Studio 2012\Projects\OOP\10. Team Work\HMTDPTeamLibraryProject\obj\Debug\MainPages\AddNewArticlePage.baml
+C:\Users\Ico\Documents\Visual Studio 2012\Projects\OOP\10. Team Work\HMTDPTeamLibraryProject\obj\Debug\MainPages\LibraryListPage.baml
+C:\Users\Ico\Documents\Visual Studio 2012\Projects\OOP\10. Team Work\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject.g.resources
+C:\Users\Ico\Documents\Visual Studio 2012\Projects\OOP\10. Team Work\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject.Properties.Resources.resources
+C:\Users\Ico\Documents\Visual Studio 2012\Projects\OOP\10. Team Work\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject.csproj.GenerateResource.Cache

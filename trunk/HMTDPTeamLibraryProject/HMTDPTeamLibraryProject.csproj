@@ -53,6 +53,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Search and Sort\Sort.cs" />
     <Compile Include="MainPages\AddNewArticlePage.xaml.cs">
       <DependentUpon>AddNewArticlePage.xaml</DependentUpon>
     </Compile>
