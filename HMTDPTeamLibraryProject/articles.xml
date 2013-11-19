@@ -2,17 +2,6 @@
 <articles>
   <article>
     <author>Plamen</author>
-    <title>Sample title 2</title>
-    <year>2013</year>
-    <month>11</month>
-    <day>13</day>
-    <image>..\..\Images\NinjaPic.png</image>
-    <category>No category</category>
-    <description>This is entered from the app</description>
-    <contents>Some looooooooooooooooonger longer longer longer longer longer contents</contents>
-  </article>
-  <article>
-    <author>Plamen</author>
     <title>Test 4</title>
     <year>2013</year>
     <month>11</month>
@@ -43,5 +32,16 @@
     <category>2424</category>
     <description>242</description>
     <contents>42424242</contents>
+  </article>
+  <article>
+    <author />
+    <title />
+    <year>0</year>
+    <month>0</month>
+    <day>0</day>
+    <image>..\..\Images\NinjaPic.png</image>
+    <category />
+    <description />
+    <contents />
   </article>
 </articles>
