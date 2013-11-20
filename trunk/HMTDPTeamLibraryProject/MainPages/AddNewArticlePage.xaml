@@ -11,7 +11,7 @@
         <viewModels:ArticleStoreViewModel/>
     </Page.DataContext>
 
-    <Grid >     
+    <Grid >
         <Grid.Background>
             <LinearGradientBrush Opacity="0.1">
                 <GradientStop Color="HotPink"  Offset="0.5"/>
@@ -19,54 +19,86 @@
             </LinearGradientBrush>
         </Grid.Background>
         <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
             <RowDefinition Height="1*"/>
             <RowDefinition Height="1*"/>
             <RowDefinition Height="1*"/>
-            <RowDefinition Height="1*"/>
+            <RowDefinition Height="2"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
             <ColumnDefinition Width="1*"/>
-            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="20"/>
         </Grid.ColumnDefinitions>
-              
-        <StackPanel Grid.Row="0" Grid.Column="0" Grid.RowSpan="4">
+
+        <StackPanel Grid.Row="1" Grid.Column="1" Grid.RowSpan="3" Height="500">
             <StackPanel DataContext="{Binding NewArticle}">
-                <TextBlock FontSize="13">Author:</TextBlock>
-                <TextBox Text="{Binding Author}" Margin="0,0,0,5" />
-                <TextBlock FontSize="13">Title</TextBlock>
-                <TextBox Text="{Binding Title}" Margin="0,0,0,5"/>
-                <TextBlock FontSize="13">Year</TextBlock>
-                <TextBox Text="{Binding Year}" Margin="0,0,0,5"/>
-                <TextBlock FontSize="13">Month</TextBlock>
-                <TextBox Text="{Binding Month}" Margin="0,0,0,5"/>
-                <TextBlock FontSize="13">Day</TextBlock>
-                <TextBox Text="{Binding Day}" Margin="0,0,0,5"/>
-                <TextBlock FontSize="13">Category</TextBlock>
-                <TextBox Text="{Binding Category}" Margin="0,0,0,5"/>
-                <TextBlock FontSize="13">Description</TextBlock>
-                <TextBox Text="{Binding Description}" Margin="0,0,0,5"/>
-                <TextBlock FontSize="13">Contents</TextBlock>
-                           
-                <TextBox Text="{Binding Contents}" Margin="0,0,0,5"
-                    SpellCheck.IsEnabled="True" 
-                    AcceptsReturn="True" 
-                    AutoWordSelection="True" 
-                    BorderBrush="Black" 
-                    BorderThickness="2" 
-                    Canvas.Left="12" 
-                    Canvas.Top="12" 
-                    Foreground="Black"
-                    ScrollViewer.HorizontalScrollBarVisibility="Disabled"
-                    ScrollViewer.VerticalScrollBarVisibility="Auto" Height="83">
-                    <TextBox.Background>
-                        <LinearGradientBrush Opacity="0.07">
-                            <GradientStop Color="DarkSlateGray"  Offset="3"/>
-                            <GradientStop Color="Aquamarine" Offset="3"/>
-                        </LinearGradientBrush>
-                    </TextBox.Background>
-                </TextBox>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="20*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock Grid.Row="0" Grid.Column="0" HorizontalAlignment="Right" FontSize="13">Author:</TextBlock>
+                    <TextBox Grid.Row="0" Grid.Column="1"  Text="{Binding Author}" Margin="0,0,0,5" Grid.ColumnSpan="3" />
+                    <TextBlock Grid.Row="0" Grid.Column="4" HorizontalAlignment="Right" FontSize="13">Title</TextBlock>
+                    <TextBox Grid.Row="0" Grid.Column="5" Text="{Binding Title}" Margin="0,0,0,5" Grid.ColumnSpan="3"/>
+                    <TextBlock Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right" FontSize="13" Margin="0,0,4,0">Year</TextBlock>
+                    <TextBox Name="yearbox" Grid.Row="1" Grid.Column="1" Text="{Binding Year}" Margin="0,0,22,5"/>
+                    <TextBlock Grid.Row="1" Grid.Column="1" HorizontalAlignment="Right" FontSize="13" RenderTransformOrigin="1.208,0.472" Grid.ColumnSpan="2" Margin="0,0,74,0">Month</TextBlock>
+                    <TextBox Name="monthbox" Grid.Row="1" Grid.Column="2" Text="{Binding Month}" Margin="26,0,10,5"/>
+                    <TextBlock Grid.Row="1" Grid.Column="3" HorizontalAlignment="Right" FontSize="13" Margin="0,0,72,0">Day</TextBlock>
+                    <TextBox Name="daybox" Grid.Row="1" Grid.Column="3" Text="{Binding Day}" Margin="28,0,0,5"/>
+                    <TextBlock Grid.Row="1" Grid.Column="4" HorizontalAlignment="Right" FontSize="13">Category</TextBlock>
+                    <TextBox Grid.Row="1" Grid.Column="5" Text="{Binding Category}" Margin="0,0,0,5" Grid.ColumnSpan="3"/>
+                    <TextBlock Grid.Row="2" Grid.Column="4" HorizontalAlignment="Right" FontSize="13">Description</TextBlock>
+                    <TextBox Grid.Row="2" Grid.Column="5" Text="{Binding Description}" Margin="0,0,0,5" Grid.ColumnSpan="3"/>
+                    <TextBlock Grid.Row="2" Grid.Column="0" HorizontalAlignment="Right" FontSize="13">Contents</TextBlock>
+
+                    <TextBox Grid.Row="3" Text="{Binding Contents}" Margin="0,0,0,5"
+                        SpellCheck.IsEnabled="True" 
+                        AcceptsReturn="True" 
+                        AutoWordSelection="True" 
+                        BorderBrush="Black" 
+                        BorderThickness="2" 
+                        Canvas.Left="12" 
+                        Canvas.Top="12" 
+                        Foreground="Black"
+                        ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                        ScrollViewer.VerticalScrollBarVisibility="Auto" Height="280" Grid.ColumnSpan="8">
+                        <TextBox.Background>
+                            <LinearGradientBrush Opacity="0.07">
+                                <GradientStop Color="DarkSlateGray"  Offset="3"/>
+                                <GradientStop Color="Aquamarine" Offset="3"/>
+                            </LinearGradientBrush>
+                        </TextBox.Background>
+                    </TextBox>
+                </Grid>
             </StackPanel>
-            <Button Command="{Binding AddNew}">Add</Button>
+            <Button Command="{Binding AddNew}" FontSize="15" Click="OnAddClick">Add
+                <Button.Background>
+                    <LinearGradientBrush Opacity="0.8">
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button FontSize="15" Click="OnArticlesClick" Content="Go to All Articles">
+                <Button.Background>
+                    <LinearGradientBrush Opacity="0.8">
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
         </StackPanel>
     </Grid>
 </Page>

@@ -23,6 +23,25 @@ namespace HMTDPTeamLibraryProject
         public AddNewArticlePage()
         {
             InitializeComponent();
+            InitializeFields();
+        }
+
+        private void InitializeFields()
+        {
+            DateTime todayDate = DateTime.Now;
+            yearbox.Text = todayDate.Year.ToString();
+            monthbox.Text = todayDate.Month.ToString();
+            daybox.Text = todayDate.Day.ToString();
+        }
+
+        private void OnAddClick(object sender, RoutedEventArgs e)
+        {
+            InitializeFields();
+        }
+
+        private void OnArticlesClick(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Uri("MainPages/LibraryListPage.xaml", UriKind.Relative));
         }
     }
 }

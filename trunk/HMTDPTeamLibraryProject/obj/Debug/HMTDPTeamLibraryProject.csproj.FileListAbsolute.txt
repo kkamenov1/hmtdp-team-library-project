@@ -67,3 +67,24 @@ C:\Users\Ico\Documents\Visual Studio 2012\Projects\OOP\10. Team Work\HMTDPTeamLi
 C:\Users\Ico\Documents\Visual Studio 2012\Projects\OOP\10. Team Work\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject.g.resources
 C:\Users\Ico\Documents\Visual Studio 2012\Projects\OOP\10. Team Work\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject.Properties.Resources.resources
 C:\Users\Ico\Documents\Visual Studio 2012\Projects\OOP\10. Team Work\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject.csproj.GenerateResource.Cache
+C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\hmtdp-team-library-project\HMTDPTeamLibraryProject\bin\Debug\HMTDPTeamLibraryProject.exe
+C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\hmtdp-team-library-project\HMTDPTeamLibraryProject\bin\Debug\HMTDPTeamLibraryProject.pdb
+C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject.csprojResolveAssemblyReference.cache
+C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\MainWindow.baml
+C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\MainPages\ReadArticlePage.baml
+C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\MainPages\StartPage.baml
+C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\App.baml
+C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\MainPages\AddNewArticlePage.g.cs
+C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\MainPages\LibraryListPage.g.cs
+C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\MainWindow.g.cs
+C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\MainPages\ReadArticlePage.g.cs
+C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\MainPages\StartPage.g.cs
+C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\App.g.cs
+C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject_MarkupCompile.cache
+C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject_MarkupCompile.lref
+C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\MainPages\AddNewArticlePage.baml
+C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\MainPages\LibraryListPage.baml
+C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject.g.resources
+C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject.Properties.Resources.resources
+C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject.csproj.GenerateResource.Cache

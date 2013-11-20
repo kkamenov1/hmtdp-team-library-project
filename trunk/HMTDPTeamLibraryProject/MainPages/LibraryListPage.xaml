@@ -26,7 +26,7 @@
             <Button Width="110"
                 Click="AddNewArticleClick"
                     BorderBrush="AliceBlue"
-                BorderThickness="10"
+                BorderThickness="1"
                     Foreground="DarkSlateGray"
                     FontSize="14"
                     FontStyle="Oblique"
@@ -43,7 +43,7 @@
             <Button  Width="110"
                 Click="OpenArticleClick"
                     BorderBrush="AliceBlue"
-                BorderThickness="10"
+                BorderThickness="1"
                     Foreground="DarkSlateGray"
                     FontSize="14"
                     FontStyle="Oblique"
@@ -60,7 +60,7 @@
 
             <Button Grid.Column="0" Command="{Binding Remove}"  Width="110"
                     BorderBrush="AliceBlue"
-                BorderThickness="10"
+                BorderThickness="1"
                     Foreground="DarkSlateGray"
                     FontSize="14"
                     FontStyle="Oblique"
@@ -75,7 +75,7 @@
             </Button>
 
         </StackPanel>
-        <ListView SelectionChanged="ListView_SelectionChanged" Name="mainOperateList" Grid.Row="1" Background="Transparent" ItemsSource="{Binding Articles}" FontSize="13">
+        <ListView SelectionChanged="ListView_SelectionChanged" Name="mainOperateList" Grid.Row="1" Background="Transparent" ItemsSource="{Binding Articles}" FontSize="13" GridViewColumnHeader.Click="results_Click">
             <ListView.View>
                 <GridView>
                     <GridView.Columns>

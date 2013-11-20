@@ -1,47 +1,91 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <articles>
   <article>
-    <author>Plamen</author>
-    <title>Test 4</title>
-    <year>2013</year>
-    <month>11</month>
-    <day>12</day>
+    <author></author>
+    <title></title>
+    <year>0</year>
+    <month>0</month>
+    <day>20</day>
     <image>..\..\Images\NinjaPic.png</image>
-    <category>No category</category>
+    <category></category>
     <description></description>
-    <contents>new new new edit</contents>
+    <contents></contents>
   </article>
   <article>
-    <author>Plamen</author>
-    <title>Sample title</title>
-    <year>2013</year>
-    <month>11</month>
-    <day>13</day>
-    <image>..\..\Images\NinjaPic.png</image>
-    <category>No category</category>
-    <description>This is sample story</description>
-    <contents>Some longer contents sdfdsfsfs</contents>
-  </article>
-  <article>
-    <author>cvx</author>
-    <title>vxvx</title>
-    <year>2013</year>
-    <month>1</month>
-    <day>1</day>
-    <image>..\..\Images\NinjaPic.png</image>
-    <category>2424</category>
-    <description>242</description>
-    <contents>42424242</contents>
-  </article>
-  <article>
-    <author />
-    <title />
+    <author>aaa</author>
+    <title>aaa</title>
     <year>0</year>
     <month>0</month>
     <day>0</day>
     <image>..\..\Images\NinjaPic.png</image>
-    <category />
-    <description />
-    <contents />
+    <category>aaa</category>
+    <description>aaa</description>
+    <contents></contents>
+  </article>
+  <article>
+    <author>Plamen1</author>
+    <title>Title1</title>
+    <year>0</year>
+    <month>0</month>
+    <day>0</day>
+    <image>..\..\Images\NinjaPic.png</image>
+    <category>Cat1</category>
+    <description>Descr1</description>
+    <contents>Cont1</contents>
+  </article>
+  <article>
+    <author>Plamen2</author>
+    <title>Title2</title>
+    <year>0</year>
+    <month>0</month>
+    <day>0</day>
+    <image>..\..\Images\NinjaPic.png</image>
+    <category>Cat2</category>
+    <description>Descr2</description>
+    <contents>Cont2</contents>
+  </article>
+  <article>
+    <author>Plamen3</author>
+    <title>Title3</title>
+    <year>2012</year>
+    <month>12</month>
+    <day>12</day>
+    <image>..\..\Images\NinjaPic.png</image>
+    <category>Cat3</category>
+    <description>DEscr3</description>
+    <contents>asa</contents>
+  </article>
+  <article>
+    <author>aaaaaa</author>
+    <title>eq</title>
+    <year>0</year>
+    <month>0</month>
+    <day>0</day>
+    <image>..\..\Images\NinjaPic.png</image>
+    <category>eqe</category>
+    <description>qeq</description>
+    <contents></contents>
+  </article>
+  <article>
+    <author>we</author>
+    <title>qeq</title>
+    <year>0</year>
+    <month>0</month>
+    <day>0</day>
+    <image>..\..\Images\NinjaPic.png</image>
+    <category>eqeq</category>
+    <description>eqeq</description>
+    <contents></contents>
+  </article>
+  <article>
+    <author>121</author>
+    <title>werwr</title>
+    <year>0</year>
+    <month>0</month>
+    <day>0</day>
+    <image>..\..\Images\NinjaPic.png</image>
+    <category>wrw</category>
+    <description>rwrw</description>
+    <contents></contents>
   </article>
 </articles>

@@ -89,17 +89,17 @@
             <TextBox Name="descriptionTextBox" Grid.Row="3" Grid.Column="1"  FontSize="14" IsReadOnly="True" Background="Transparent" Grid.ColumnSpan="4" />
             <TextBox Name="contentsTextBox" FontSize="16" Grid.Row="5" IsReadOnly="True" TextWrapping="Wrap"  Background="Transparent" Grid.ColumnSpan="9" Grid.RowSpan="7"/>
 
-            <Button Grid.Row="0" Grid.Column="6" Grid.ColumnSpan="2" Margin="15,0,15,0"
+            <Button Grid.Row="1" Grid.Column="6" Grid.ColumnSpan="2"  Height="27"
                 Click="AddNewArticleClick"
                     BorderBrush="AliceBlue"
-                BorderThickness="10"
+                BorderThickness="1"
                     Foreground="DarkSlateGray"
                     FontSize="14"
                     FontStyle="Normal"
                     FontWeight="SemiBold"
                     HorizontalContentAlignment="Center"
                     VerticalContentAlignment="Center"
-                    Content="New Article" ToolTip="Write New Article" >
+                    Content="New Article" ToolTip="Write New Article" Margin="0,2,0,0" >
                 <Button.Background>
                     <LinearGradientBrush Opacity="0.2">
                         <GradientStop Color="DarkSlateGray"  Offset="3"/>
@@ -108,17 +108,17 @@
                 </Button.Background>
             </Button>
 
-            <Button Grid.Row="1" Grid.Column="6" Grid.ColumnSpan="2" Margin="15,17"
+            <Button Grid.Row="2" Grid.Column="6" Grid.ColumnSpan="2" Height="27"
                 Click="ViewArticlesClick"
                     BorderBrush="AliceBlue"
-                BorderThickness="10"
+                BorderThickness="1"
                     Foreground="DarkSlateGray"
                     FontSize="14"
                     FontStyle="Normal"
                     FontWeight="SemiBold"
                     HorizontalContentAlignment="Center"
                     VerticalContentAlignment="Center"
-                    Content="All Articles" ToolTip="View All Articles" Grid.RowSpan="2" >
+                    Content="All Articles" ToolTip="View All Articles" >
                 <Button.Background>
                     <LinearGradientBrush Opacity="0.2">
                         <GradientStop Color="DarkSlateGray"  Offset="3"/>
@@ -127,10 +127,10 @@
                 </Button.Background>
             </Button>
 
-            <Button Name="editButton" Grid.Row="3" Grid.Column="6" Grid.ColumnSpan="2" Margin="15,0"
+            <Button Name="editButton" Grid.Row="3" Grid.Column="6" Grid.ColumnSpan="2" Height="27"
                 Click="EditArticlesClick"
                     BorderBrush="AliceBlue"
-                    BorderThickness="10"
+                    BorderThickness="1"
                     Foreground="DarkSlateGray"
                     FontSize="14"
                     FontStyle="Normal"
@@ -145,7 +145,7 @@
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
-
+            <Image Name="artimage" Grid.Column="8" Margin="10,10,-52,0" Grid.Row="1"  Grid.RowSpan="3" Height="74" VerticalAlignment="Top"/>
         </Grid>
     </Grid>
 </Page>
