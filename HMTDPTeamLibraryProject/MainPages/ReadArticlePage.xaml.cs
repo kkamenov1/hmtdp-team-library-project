@@ -33,9 +33,17 @@ namespace HMTDPTeamLibraryProject
         {
             titleArticle.Text = workNodeTransfer.Title;
             authorTextBox.Text = workNodeTransfer.Author;
+            try
+            {
+                DateTime tempDate = new DateTime(workNodeTransfer.Year, workNodeTransfer.Month, workNodeTransfer.Day);
+                dateTextBox.Text = String.Format("{0:dd.MM.yyyy}", tempDate); 
+            }
+            catch (Exception)
+            {
+                dateTextBox.Text = String.Format("unknown date"); 
+                // catch exception 
+            }
 
-            DateTime tempDate = new DateTime(workNodeTransfer.Year, workNodeTransfer.Month, workNodeTransfer.Day);
-            dateTextBox.Text = String.Format("{0:dd.MM.yyyy}", tempDate); 
 
             categoryTextBox.Text = workNodeTransfer.Category;
             descriptionTextBox.Text = workNodeTransfer.Description;
