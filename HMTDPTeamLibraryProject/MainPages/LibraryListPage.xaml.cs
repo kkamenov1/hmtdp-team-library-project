@@ -1,6 +1,7 @@
 ﻿using HMTDPTeamLibraryProject.ViewModels;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -52,7 +53,25 @@ namespace HMTDPTeamLibraryProject
             {
                 stores.ChangeSelection(selected[0]);
             }
-
         }
+
+        #region Sorting columns
+
+        // Header click event
+        void results_Click(object sender, RoutedEventArgs e)
+        {
+            GridViewColumnHeader headerClicked = e.OriginalSource as GridViewColumnHeader;
+
+            if (headerClicked != null)
+            {
+                string header = headerClicked.Column.Header as string;
+
+                Sort newSort = new Sort();
+                newSort.SortByAttribute(header);
+                this.NavigationService.Refresh();
+            }
+        }
+
+        #endregion Sorting columns
     }
 }

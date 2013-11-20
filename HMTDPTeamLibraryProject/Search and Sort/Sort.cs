@@ -43,7 +43,19 @@ namespace HMTDPTeamLibraryProject
                     //TODO: Maybe we should throw an exception here?
                 }
             }
+
+            JustArrange(articles);
+
             return articles;
+        }
+
+        private void JustArrange(IEnumerable<ArticleViewModel> articles)
+        {
+            foreach (var item in articles)
+            {
+                DataPersister.RemoveStore(MainWindow.mainFilePath, item);
+                DataPersister.AddArticle(MainWindow.mainFilePath, item);
+            }
         }
     }
 }

@@ -40,6 +40,17 @@ namespace HMTDPTeamLibraryProject
             categoryTextBox.Text = workNodeTransfer.Category;
             descriptionTextBox.Text = workNodeTransfer.Description;
             contentsTextBox.Text = workNodeTransfer.Contents;
+
+            try
+            {
+                Uri uri = new Uri(workNodeTransfer.ImagePath, UriKind.RelativeOrAbsolute);
+                ImageSource imgSource = new BitmapImage(uri);
+                artimage.Source = imgSource;
+            }
+            catch (Exception)
+            {
+
+            }
         }
 
         private void AddNewArticleClick(object sender, RoutedEventArgs e)
