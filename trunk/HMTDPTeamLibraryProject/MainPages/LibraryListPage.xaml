@@ -74,6 +74,22 @@
                 </Button.Background>
             </Button>
 
+            <Button Grid.Column="0" Click="SearchArticleClick"  Width="110"
+                    BorderBrush="AliceBlue"
+                BorderThickness="1"
+                    Foreground="DarkSlateGray"
+                    FontSize="14"
+                    FontStyle="Oblique"
+                    FontWeight="SemiBold"
+                    HorizontalContentAlignment="Center"
+                    VerticalContentAlignment="Center"
+                    Content="Search Article" ToolTip="Remove Selected Article" Margin="5,5,5,5">
+                <Button.Background>
+                    <LinearGradientBrush Opacity="0.01">
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            
         </StackPanel>
         <ListView SelectionChanged="ListView_SelectionChanged" Name="mainOperateList" Grid.Row="1" Background="Transparent" ItemsSource="{Binding Articles}" FontSize="13" GridViewColumnHeader.Click="results_Click">
             <ListView.View>

@@ -77,7 +77,7 @@
                         Canvas.Top="12" 
                         Foreground="Black"
                         ScrollViewer.HorizontalScrollBarVisibility="Disabled"
-                        ScrollViewer.VerticalScrollBarVisibility="Auto" Height="280" Grid.ColumnSpan="8">
+                        ScrollViewer.VerticalScrollBarVisibility="Auto" Height="270" Grid.ColumnSpan="8">
                         <TextBox.Background>
                             <LinearGradientBrush Opacity="0.07">
                                 <GradientStop Color="DarkSlateGray"  Offset="3"/>

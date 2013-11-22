@@ -12,6 +12,17 @@
     <contents></contents>
   </article>
   <article>
+    <author>121</author>
+    <title>werwr</title>
+    <year>0</year>
+    <month>0</month>
+    <day>0</day>
+    <image>..\..\Images\NinjaPic.png</image>
+    <category>wrw</category>
+    <description>rwrw</description>
+    <contents></contents>
+  </article>
+  <article>
     <author>aaa</author>
     <title>aaa</title>
     <year>0</year>
@@ -31,17 +42,6 @@
     <image>..\..\Images\NinjaPic.png</image>
     <category>eqe</category>
     <description>qeq</description>
-    <contents></contents>
-  </article>
-  <article>
-    <author>we</author>
-    <title>qeq</title>
-    <year>0</year>
-    <month>0</month>
-    <day>0</day>
-    <image>..\..\Images\NinjaPic.png</image>
-    <category>eqeq</category>
-    <description>eqeq</description>
     <contents></contents>
   </article>
   <article>
@@ -67,6 +67,17 @@
     <contents>Cont2</contents>
   </article>
   <article>
+    <author>we</author>
+    <title>qeq</title>
+    <year>0</year>
+    <month>0</month>
+    <day>0</day>
+    <image>..\..\Images\NinjaPic.png</image>
+    <category>eqeq</category>
+    <description>eqeq</description>
+    <contents></contents>
+  </article>
+  <article>
     <author>Plamen3</author>
     <title>Title3</title>
     <year>2012</year>
@@ -75,17 +86,6 @@
     <image>..\..\Images\NinjaPic.png</image>
     <category>Cat3</category>
     <description>DEscr3</description>
-    <contents>asa</contents>
-  </article>
-  <article>
-    <author>121</author>
-    <title>werwr</title>
-    <year>0</year>
-    <month>0</month>
-    <day>0</day>
-    <image>..\..\Images\NinjaPic.png</image>
-    <category>wrw</category>
-    <description>rwrw</description>
-    <contents></contents>
+    <contents>asaxbxcbcx</contents>
   </article>
 </articles>
