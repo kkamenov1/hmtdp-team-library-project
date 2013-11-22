@@ -34,5 +34,10 @@ namespace HMTDPTeamLibraryProject
         {
             this.NavigationService.Navigate(new Uri("MainPages/LibraryListPage.xaml", UriKind.Relative));
         }
+
+        private void OnSearchClick(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Uri("MainPages/SearchPage.xaml", UriKind.Relative));
+        }
     }
 }

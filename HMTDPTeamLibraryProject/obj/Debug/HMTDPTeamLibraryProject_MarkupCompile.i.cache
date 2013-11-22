@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\hmtdp-team-library-project\HMTDPTeamLibraryProject\App.xaml
-5-1406176334
+6-1004656889
 
-20-746921714
+21-1296075211
 12-1401562060
-MainPages\AddNewArticlePage.xaml;MainPages\LibraryListPage.xaml;MainWindow.xaml;MainPages\ReadArticlePage.xaml;MainPages\StartPage.xaml;
+MainPages\AddNewArticlePage.xaml;MainPages\LibraryListPage.xaml;MainWindow.xaml;MainPages\ReadArticlePage.xaml;MainPages\StartPage.xaml;MainPages\SearchPage.xaml;
 
-False
+True
 

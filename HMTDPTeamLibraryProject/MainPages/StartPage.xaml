@@ -30,8 +30,8 @@
                     Foreground="SteelBlue"
                     IsReadOnly="True"
                     FontSize="25"
-                    FontStyle="Oblique"
-                    FontWeight="SemiBold"
+                    FontStyle="Normal"
+                    FontWeight="ExtraBold"
                     HorizontalContentAlignment="Center"
                     VerticalAlignment="Center"
                     ScrollViewer.HorizontalScrollBarVisibility="Disabled"
@@ -66,7 +66,7 @@
             </Grid.ColumnDefinitions>
             <Button Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" Name="MainButtonOne" Click="OpenAllArticlesClick" Height="120" Width="260"  ToolTipService.ToolTip="Open main articles list"  Margin="5,5,5,5">
                 <Button.Background>
-                    <LinearGradientBrush Opacity="0.5">
+                    <LinearGradientBrush Opacity="0.3">
                         <GradientStop Color="GreenYellow"  Offset="5"/>
                         <GradientStop Color="BlueViolet"  Offset="2"/>
                         <GradientStop Color="GreenYellow"/>
@@ -76,7 +76,7 @@
             </Button>
             <Button Grid.Row="1" Grid.Column="3" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center"  Name="MainButtonTwo" Click="OpenNewArticleClick" Height="120" Width="260" FontSize="30" ToolTipService.ToolTip="Write a new article" BorderBrush="DarkGreen"  BorderThickness="7" Margin="5,5,5,5">
                 <Button.Background>
-                    <LinearGradientBrush Opacity="0.5">
+                    <LinearGradientBrush Opacity="0.2">
                         <GradientStop Color="GreenYellow"  Offset="5"/>
                         <GradientStop Color="BlueViolet"  Offset="2"/>
                         <GradientStop Color="Aqua"/>
@@ -84,9 +84,9 @@
                 </Button.Background>
                 <Image Source="../Images/NewArticlePic.png" Stretch="Fill" MaxHeight="100" MaxWidth="160"/>
             </Button>
-            <Button Grid.Row="1" Grid.Column="5" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center"  Name="MainButtonThree" Height="130" Width="260" FontSize="30"  BorderBrush="BlanchedAlmond"  BorderThickness="7" Margin="5,5,5,5">
+            <Button Grid.Row="1" Grid.Column="5" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center"  Name="MainButtonThree" Click="OnSearchClick" Height="130" Width="260" FontSize="30"  BorderBrush="BlanchedAlmond"  BorderThickness="7" Margin="5,5,5,5">
                 <Button.Background>
-                    <LinearGradientBrush Opacity="0.2">
+                    <LinearGradientBrush Opacity="0.1">
                         <GradientStop Color="GreenYellow"  Offset="5"/>
                         <GradientStop Color="BlueViolet"  Offset="2"/>
                         <GradientStop Color="#FFFF0000"/>
