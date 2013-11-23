@@ -39,5 +39,10 @@ namespace HMTDPTeamLibraryProject
         {
             this.NavigationService.Navigate(new Uri("MainPages/SearchPage.xaml", UriKind.Relative));
         }
+
+        private void OpenBooksCatalogue(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Uri("MainPages/Books.xaml", UriKind.Relative));
+        }
     }
 }

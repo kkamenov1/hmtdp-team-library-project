@@ -90,3 +90,31 @@ C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\hmtdp-team-library-project
 C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject.csproj.GenerateResource.Cache
 C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\MainPages\SearchPage.baml
 C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\MainPages\SearchPage.g.cs
+D:\telerik\1. programming\OOP\TeamWork\hmtdp-team-library-project\HMTDPTeamLibraryProject\bin\Debug\HMTDPTeamLibraryProject.exe.config
+D:\telerik\1. programming\OOP\TeamWork\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject.exe
+D:\telerik\1. programming\OOP\TeamWork\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject.pdb
+D:\telerik\1. programming\OOP\TeamWork\hmtdp-team-library-project\HMTDPTeamLibraryProject\bin\Debug\HMTDPTeamLibraryProject.exe
+D:\telerik\1. programming\OOP\TeamWork\hmtdp-team-library-project\HMTDPTeamLibraryProject\bin\Debug\HMTDPTeamLibraryProject.pdb
+D:\telerik\1. programming\OOP\TeamWork\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject.csprojResolveAssemblyReference.cache
+D:\telerik\1. programming\OOP\TeamWork\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\MainPages\Books.baml
+D:\telerik\1. programming\OOP\TeamWork\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\MainWindow.baml
+D:\telerik\1. programming\OOP\TeamWork\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\MainPages\ReadArticlePage.baml
+D:\telerik\1. programming\OOP\TeamWork\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\MainPages\StartPage.baml
+D:\telerik\1. programming\OOP\TeamWork\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\MainPages\SearchPage.baml
+D:\telerik\1. programming\OOP\TeamWork\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\App.baml
+D:\telerik\1. programming\OOP\TeamWork\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\MainPages\AddNewArticlePage.g.cs
+D:\telerik\1. programming\OOP\TeamWork\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\MainPages\Books.g.cs
+D:\telerik\1. programming\OOP\TeamWork\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\MainPages\LibraryListPage.g.cs
+D:\telerik\1. programming\OOP\TeamWork\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\MainWindow.g.cs
+D:\telerik\1. programming\OOP\TeamWork\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\MainPages\ReadArticlePage.g.cs
+D:\telerik\1. programming\OOP\TeamWork\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\MainPages\StartPage.g.cs
+D:\telerik\1. programming\OOP\TeamWork\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\MainPages\SearchPage.g.cs
+D:\telerik\1. programming\OOP\TeamWork\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\App.g.cs
+D:\telerik\1. programming\OOP\TeamWork\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\telerik\1. programming\OOP\TeamWork\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject_MarkupCompile.cache
+D:\telerik\1. programming\OOP\TeamWork\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject_MarkupCompile.lref
+D:\telerik\1. programming\OOP\TeamWork\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\MainPages\AddNewArticlePage.baml
+D:\telerik\1. programming\OOP\TeamWork\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\MainPages\LibraryListPage.baml
+D:\telerik\1. programming\OOP\TeamWork\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject.g.resources
+D:\telerik\1. programming\OOP\TeamWork\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject.Properties.Resources.resources
+D:\telerik\1. programming\OOP\TeamWork\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject.csproj.GenerateResource.Cache

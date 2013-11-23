@@ -94,7 +94,7 @@
                 </Button.Background>
                 <Image Source="../Images/SearchArticlePic.png" Stretch="Fill"/>
             </Button>
-            <Button Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center"  Name="MainButtonFour"  Height="130" Width="270" FontSize="30"  BorderBrush="BlanchedAlmond"  BorderThickness="7" Margin="5,5,5,5">
+            <Button Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center"  Name="MainButtonFour"  Click="OpenBooksCatalogue" Height="130" Width="270" FontSize="30"  BorderBrush="BlanchedAlmond"  BorderThickness="7" Margin="5,5,5,5">
                 <Button.Background>
                     <LinearGradientBrush Opacity="0.8">
                         <GradientStop Color="GreenYellow"  Offset="5"/>
@@ -102,7 +102,7 @@
                         <GradientStop Color="Azure"/>
                     </LinearGradientBrush>
                 </Button.Background>
-                <Image Source="Assets/Icons_White/header4.png" Stretch="Fill"/>
+                <Image Source="../Images/NewArticlePic.png" Stretch="Fill"/>
             </Button>
             <Button Grid.Row="3" Grid.Column="4" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" Name="MainButtonFive"  Height="130" Width="270" FontSize="30"  BorderBrush="BlanchedAlmond"  BorderThickness="7" Margin="5,5,5,5">
                 <Button.Background>
@@ -112,7 +112,7 @@
                         <GradientStop Color="Bisque"/>
                     </LinearGradientBrush>
                 </Button.Background>
-                <Image Source="Assets/Icons_White/header5.png" Stretch="Fill"/>
+                <Image  Stretch="Fill"/>
             </Button>
 
         </Grid>

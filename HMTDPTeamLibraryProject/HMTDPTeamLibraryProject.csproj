@@ -35,7 +35,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Activities" />
     <Reference Include="System.Data" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Activities" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -53,6 +56,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="MainPages\Books.xaml.cs">
+      <DependentUpon>Books.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Search and Sort\Sort.cs" />
     <Compile Include="MainPages\AddNewArticlePage.xaml.cs">
       <DependentUpon>AddNewArticlePage.xaml</DependentUpon>
@@ -71,6 +77,10 @@
     <Compile Include="ViewModels\DataPersister.cs" />
     <Compile Include="ViewModels\ViewModelBase.cs" />
     <Page Include="MainPages\AddNewArticlePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainPages\Books.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
