@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
@@ -31,6 +32,11 @@ namespace HMTDPTeamLibraryProject.ViewModels
 
         internal static void AddArticle(string documenPath, ArticleViewModel article)
         {
+            DateTime todayDate = DateTime.Now;
+            if (article.Year == 0) { article.Year = todayDate.Year; }
+            if (article.Month == 0) { article.Month = todayDate.Month; }
+            if (article.Day == 0) { article.Day = todayDate.Day; }
+
             var root = XDocument.Load(documenPath).Root;
             root.Add(new XElement("article",
                 new XElement("author", article.Author),
@@ -45,6 +51,7 @@ namespace HMTDPTeamLibraryProject.ViewModels
                 ));
             root.Document.Save(documenPath);
         }
+
 
         internal static void RemoveStore(string documenPath, ArticleViewModel store)
         {
