@@ -109,7 +109,7 @@
                         </GridViewColumn>
                         <GridViewColumn Width="100" Header="Category" DisplayMemberBinding="{Binding Category}"/>
                         <GridViewColumn Width="135" Header="Description" DisplayMemberBinding="{Binding Description}"/>
-                        <GridViewColumn Width="105" Header="Contents" DisplayMemberBinding="{Binding Contents}"/>
+                        <!--<GridViewColumn Width="105" Header="Contents" DisplayMemberBinding="{Binding Contents}"/>-->
                     </GridView.Columns>
                 </GridView>
             </ListView.View>

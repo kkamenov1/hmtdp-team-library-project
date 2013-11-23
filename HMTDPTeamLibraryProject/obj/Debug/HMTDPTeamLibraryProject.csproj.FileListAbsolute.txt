@@ -118,3 +118,5 @@ D:\telerik\1. programming\OOP\TeamWork\hmtdp-team-library-project\HMTDPTeamLibra
 D:\telerik\1. programming\OOP\TeamWork\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject.g.resources
 D:\telerik\1. programming\OOP\TeamWork\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject.Properties.Resources.resources
 D:\telerik\1. programming\OOP\TeamWork\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject.csproj.GenerateResource.Cache
+C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\MainPages\Books.g.cs
+C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\MainPages\Books.baml
