@@ -120,3 +120,31 @@ D:\telerik\1. programming\OOP\TeamWork\hmtdp-team-library-project\HMTDPTeamLibra
 D:\telerik\1. programming\OOP\TeamWork\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject.csproj.GenerateResource.Cache
 C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\MainPages\Books.g.cs
 C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\MainPages\Books.baml
+D:\VS Projects\root\HMTDPTeamLibraryProject\bin\Debug\HMTDPTeamLibraryProject.exe.config
+D:\VS Projects\root\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject.exe
+D:\VS Projects\root\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject.pdb
+D:\VS Projects\root\HMTDPTeamLibraryProject\bin\Debug\HMTDPTeamLibraryProject.exe
+D:\VS Projects\root\HMTDPTeamLibraryProject\bin\Debug\HMTDPTeamLibraryProject.pdb
+D:\VS Projects\root\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject.csprojResolveAssemblyReference.cache
+D:\VS Projects\root\HMTDPTeamLibraryProject\obj\Debug\MainWindow.baml
+D:\VS Projects\root\HMTDPTeamLibraryProject\obj\Debug\MainPages\ReadArticlePage.baml
+D:\VS Projects\root\HMTDPTeamLibraryProject\obj\Debug\MainPages\StartPage.baml
+D:\VS Projects\root\HMTDPTeamLibraryProject\obj\Debug\MainPages\SearchPage.baml
+D:\VS Projects\root\HMTDPTeamLibraryProject\obj\Debug\App.baml
+D:\VS Projects\root\HMTDPTeamLibraryProject\obj\Debug\MainPages\AddNewArticlePage.g.cs
+D:\VS Projects\root\HMTDPTeamLibraryProject\obj\Debug\MainPages\Books.g.cs
+D:\VS Projects\root\HMTDPTeamLibraryProject\obj\Debug\MainPages\LibraryListPage.g.cs
+D:\VS Projects\root\HMTDPTeamLibraryProject\obj\Debug\MainWindow.g.cs
+D:\VS Projects\root\HMTDPTeamLibraryProject\obj\Debug\MainPages\ReadArticlePage.g.cs
+D:\VS Projects\root\HMTDPTeamLibraryProject\obj\Debug\MainPages\StartPage.g.cs
+D:\VS Projects\root\HMTDPTeamLibraryProject\obj\Debug\MainPages\SearchPage.g.cs
+D:\VS Projects\root\HMTDPTeamLibraryProject\obj\Debug\App.g.cs
+D:\VS Projects\root\HMTDPTeamLibraryProject\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\VS Projects\root\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject_MarkupCompile.cache
+D:\VS Projects\root\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject_MarkupCompile.lref
+D:\VS Projects\root\HMTDPTeamLibraryProject\obj\Debug\MainPages\AddNewArticlePage.baml
+D:\VS Projects\root\HMTDPTeamLibraryProject\obj\Debug\MainPages\Books.baml
+D:\VS Projects\root\HMTDPTeamLibraryProject\obj\Debug\MainPages\LibraryListPage.baml
+D:\VS Projects\root\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject.g.resources
+D:\VS Projects\root\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject.Properties.Resources.resources
+D:\VS Projects\root\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject.csproj.GenerateResource.Cache
