@@ -22,6 +22,8 @@ namespace HMTDPTeamLibraryProject
     /// </summary>
     public partial class LibraryListPage : Page
     {
+        private Exception NullReferenceException;
+
         public LibraryListPage()
         {
             InitializeComponent();
@@ -55,23 +57,25 @@ namespace HMTDPTeamLibraryProject
             }
         }
 
-        #region Sorting columns
-
-        // Header click event
+        #region Sorting columns on click Event
+        
         void results_Click(object sender, RoutedEventArgs e)
         {
             GridViewColumnHeader headerClicked = e.OriginalSource as GridViewColumnHeader;
 
-            if (headerClicked != null)
-            {
-                string header = headerClicked.Column.Header as string;
+            try {
+                if (headerClicked != null) {
+                    string header = headerClicked.Column.Header as string;
 
-                Sort newSort = new Sort();
-                newSort.SortByAttribute(header);
-                this.NavigationService.Refresh();
+                    Sort newSort = new Sort();
+                    newSort.SortByAttribute(header);
+                    this.NavigationService.Refresh();
+                }
+            }
+            catch (Exception ClickOnEmptyColumnThatCrashesAPPonSorting) {
+                Console.WriteLine(ClickOnEmptyColumnThatCrashesAPPonSorting.Message); 
             }
         }
-
         #endregion Sorting columns
 
         private void SearchArticleClick(object sender, RoutedEventArgs e)
