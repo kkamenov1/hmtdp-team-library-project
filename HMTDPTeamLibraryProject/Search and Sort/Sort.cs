@@ -36,7 +36,7 @@ namespace HMTDPTeamLibraryProject
                 }
                 else if (givenPropertyName == typeof(ArticleViewModel).GetProperty("Year"))
                 {
-                    articles = this.articles.OrderBy(x => x.Year);
+                    articles = this.articles.OrderBy(x => x.Year).ThenBy(x => x.Month).ThenBy(x => x.Day);
                 }
                 else
                 {
