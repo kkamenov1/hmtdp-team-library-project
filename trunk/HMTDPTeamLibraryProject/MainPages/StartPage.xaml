@@ -64,7 +64,17 @@
                 <ColumnDefinition Width="1*"/>
                 <ColumnDefinition Width="1*"/>
             </Grid.ColumnDefinitions>
-            <Button Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" Name="MainButtonOne" Click="OpenAllArticlesClick" Height="120" Width="260"  ToolTipService.ToolTip="Open main articles list"  Margin="5,5,5,5">
+            
+            <Button Grid.Row="1" 
+                    Grid.Column="1" 
+                    Grid.ColumnSpan="2" 
+                    HorizontalAlignment="Center" 
+                    VerticalAlignment="Center" 
+                    Name="MainButtonOne" 
+                    Click="OpenAllArticlesClick" 
+                    Height="120" Width="260"  
+                    ToolTipService.ToolTip="Open main articles list"  
+                    Margin="5,5,5,5">
                 <Button.Background>
                     <LinearGradientBrush Opacity="0.3">
                         <GradientStop Color="GreenYellow"  Offset="5"/>
@@ -72,9 +82,26 @@
                         <GradientStop Color="GreenYellow"/>
                     </LinearGradientBrush>
                 </Button.Background>
-                <Image Source="../Images/AllArticlesPic.png" Stretch="Fill" MaxHeight="100" MaxWidth="160"/>
+                <Image Source="../Images/AllArticlesPic.png" 
+                       Stretch="Fill" 
+                       MaxHeight="100" 
+                       MaxWidth="160"/>
             </Button>
-            <Button Grid.Row="1" Grid.Column="3" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center"  Name="MainButtonTwo" Click="OpenNewArticleClick" Height="120" Width="260" FontSize="30" ToolTipService.ToolTip="Write a new article" BorderBrush="DarkGreen"  BorderThickness="7" Margin="5,5,5,5">
+            
+            <Button Grid.Row="1" 
+                    Grid.Column="3" 
+                    Grid.ColumnSpan="2" 
+                    HorizontalAlignment="Center" 
+                    VerticalAlignment="Center"  
+                    Name="MainButtonTwo" 
+                    Click="OpenNewArticleClick" 
+                    Height="120" 
+                    Width="260" 
+                    FontSize="30" 
+                    ToolTipService.ToolTip="Write a new article" 
+                    BorderBrush="DarkGreen"  
+                    BorderThickness="7" 
+                    Margin="5,5,5,5">
                 <Button.Background>
                     <LinearGradientBrush Opacity="0.2">
                         <GradientStop Color="GreenYellow"  Offset="5"/>
@@ -82,9 +109,25 @@
                         <GradientStop Color="Aqua"/>
                     </LinearGradientBrush>
                 </Button.Background>
-                <Image Source="../Images/NewArticlePic.png" Stretch="Fill" MaxHeight="100" MaxWidth="160"/>
+                <Image Source="../Images/NewArticlePic.png" 
+                       Stretch="Fill" 
+                       MaxHeight="100" 
+                       MaxWidth="160"/>
             </Button>
-            <Button Grid.Row="1" Grid.Column="5" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center"  Name="MainButtonThree" Click="OnSearchClick" Height="130" Width="260" FontSize="30"  BorderBrush="BlanchedAlmond"  BorderThickness="7" Margin="5,5,5,5">
+            
+            <Button Grid.Row="1" 
+                    Grid.Column="5" 
+                    Grid.ColumnSpan="2" 
+                    HorizontalAlignment="Center" 
+                    VerticalAlignment="Center"  
+                    Name="MainButtonThree" 
+                    Click="OnSearchClick" 
+                    Height="130" 
+                    Width="260" 
+                    FontSize="30"  
+                    BorderBrush="BlanchedAlmond"  
+                    BorderThickness="7" 
+                    Margin="5,5,5,5">
                 <Button.Background>
                     <LinearGradientBrush Opacity="0.1">
                         <GradientStop Color="GreenYellow"  Offset="5"/>
@@ -92,9 +135,23 @@
                         <GradientStop Color="#FFFF0000"/>
                     </LinearGradientBrush>
                 </Button.Background>
-                <Image Source="../Images/SearchArticlePic.png" Stretch="Fill"/>
+                <Image Source="../Images/SearchArticlePic.png" 
+                       Stretch="Fill"/>
             </Button>
-            <Button Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center"  Name="MainButtonFour"  Click="OpenBooksCatalogue" Height="130" Width="270" FontSize="30"  BorderBrush="BlanchedAlmond"  BorderThickness="7" Margin="5,5,5,5">
+            
+            <Button Grid.Row="3" 
+                    Grid.Column="2" 
+                    Grid.ColumnSpan="2" 
+                    HorizontalAlignment="Center" 
+                    VerticalAlignment="Center"  
+                    Name="MainButtonFour"  
+                    Click="OpenBooksCatalogue" 
+                    Height="130" 
+                    Width="270" 
+                    FontSize="30"  
+                    BorderBrush="BlanchedAlmond"  
+                    BorderThickness="7" 
+                    Margin="5,5,5,5">
                 <Button.Background>
                     <LinearGradientBrush Opacity="0.8">
                         <GradientStop Color="GreenYellow"  Offset="5"/>
@@ -102,9 +159,22 @@
                         <GradientStop Color="Azure"/>
                     </LinearGradientBrush>
                 </Button.Background>
-                <Image Source="../Images/NewArticlePic.png" Stretch="Fill"/>
+                <Image Source="../Images/NewArticlePic.png" 
+                       Stretch="Fill"/>
             </Button>
-            <Button Grid.Row="3" Grid.Column="4" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" Name="MainButtonFive"  Height="130" Width="270" FontSize="30"  BorderBrush="BlanchedAlmond"  BorderThickness="7" Margin="5,5,5,5">
+            
+            <Button Grid.Row="3" 
+                    Grid.Column="4" 
+                    Grid.ColumnSpan="2" 
+                    HorizontalAlignment="Center" 
+                    VerticalAlignment="Center" 
+                    Name="MainButtonFive"  
+                    Height="130" 
+                    Width="270" 
+                    FontSize="30"  
+                    BorderBrush="BlanchedAlmond"  
+                    BorderThickness="7" 
+                    Margin="5,5,5,5">
                 <Button.Background>
                     <LinearGradientBrush Opacity="0.8">
                         <GradientStop Color="GreenYellow"  Offset="5"/>
@@ -114,8 +184,7 @@
                 </Button.Background>
                 <Image  Stretch="Fill"/>
             </Button>
-
+            
         </Grid>
-
     </Grid>
 </Page>

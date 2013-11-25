@@ -17,81 +17,106 @@
                 <GradientStop Color="RosyBrown"  Offset="0.6"/>
             </LinearGradientBrush>
         </Grid.Background>
+
         <Grid.RowDefinitions>
             <RowDefinition Height="45"/>
             <RowDefinition Height="1*"/>
             <RowDefinition Height="30"/>
         </Grid.RowDefinitions>
+
         <StackPanel Grid.Row="0" Orientation="Horizontal">
+
+            <!--New Article-->
             <Button Width="110"
-                Click="AddNewArticleClick"
+                    Click="AddNewArticleClick"
                     BorderBrush="AliceBlue"
-                BorderThickness="1"
+                    BorderThickness="1"
                     Foreground="DarkSlateGray"
                     FontSize="14"
                     FontStyle="Oblique"
                     FontWeight="SemiBold"
                     HorizontalContentAlignment="Center"
                     VerticalContentAlignment="Center"
-                    Content="New Article" ToolTip="Write New Article" Margin="5,5,5,5">
+                    Content="New Article" 
+                    ToolTip="Write New Article" 
+                    Margin="5,5,5,5">
                 <Button.Background>
                     <LinearGradientBrush Opacity="0.01">
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
 
-            <Button  Width="110"
-                Click="OpenArticleClick"
+            <!--Open Article-->
+            <Button Width="110"
+                    Click="OpenArticleClick"
                     BorderBrush="AliceBlue"
-                BorderThickness="1"
+                    BorderThickness="1"
                     Foreground="DarkSlateGray"
                     FontSize="14"
                     FontStyle="Oblique"
                     FontWeight="SemiBold"
                     HorizontalContentAlignment="Center"
                     VerticalContentAlignment="Center"
-                    Content="Open Article" ToolTip="Open Selected Article" Margin="5,5,5,5">
+                    Content="Open Article" 
+                    ToolTip="Open Selected Article" 
+                    Margin="5,5,5,5">
                 <Button.Background>
                     <LinearGradientBrush Opacity="0.01">
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
 
-
-            <Button Grid.Column="0" Command="{Binding Remove}"  Width="110"
+            <!--Remove Article-->
+            <Button Grid.Column="0" 
+                    Command="{Binding Remove}"  
+                    Width="110"
                     BorderBrush="AliceBlue"
-                BorderThickness="1"
+                    BorderThickness="1"
                     Foreground="DarkSlateGray"
                     FontSize="14"
                     FontStyle="Oblique"
                     FontWeight="SemiBold"
                     HorizontalContentAlignment="Center"
                     VerticalContentAlignment="Center"
-                    Content="Remove Article" ToolTip="Remove Selected Article" Margin="5,5,5,5">
+                    Content="Remove Article" 
+                    ToolTip="Remove Selected Article" 
+                    Margin="5,5,5,5">
                 <Button.Background>
                     <LinearGradientBrush Opacity="0.01">
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
 
-            <Button Grid.Column="0" Click="SearchArticleClick"  Width="110"
+            <!--Search Article-->
+            <Button Grid.Column="0" 
+                    Click="SearchArticleClick"  
+                    Width="110"
                     BorderBrush="AliceBlue"
-                BorderThickness="1"
+                    BorderThickness="1"
                     Foreground="DarkSlateGray"
                     FontSize="14"
                     FontStyle="Oblique"
                     FontWeight="SemiBold"
                     HorizontalContentAlignment="Center"
                     VerticalContentAlignment="Center"
-                    Content="Search Article" ToolTip="Remove Selected Article" Margin="5,5,5,5">
+                    Content="Search Article" 
+                    ToolTip="Remove Selected Article" 
+                    Margin="5,5,5,5">
                 <Button.Background>
                     <LinearGradientBrush Opacity="0.01">
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
-            
+
         </StackPanel>
-        <ListView SelectionChanged="ListView_SelectionChanged" Name="mainOperateList" Grid.Row="1" Background="Transparent" ItemsSource="{Binding Articles}" FontSize="13" GridViewColumnHeader.Click="results_Click">
+        
+        <ListView SelectionChanged="ListView_SelectionChanged" 
+                  Name="mainOperateList" 
+                  Grid.Row="1" 
+                  Background="Transparent" 
+                  ItemsSource="{Binding Articles}" 
+                  FontSize="13" 
+                  GridViewColumnHeader.Click="results_Click">
             <ListView.View>
                 <GridView>
                     <GridView.Columns>
@@ -114,15 +139,19 @@
                 </GridView>
             </ListView.View>
         </ListView>
+        
         <Grid Grid.Row="2">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="100"/>
                 <ColumnDefinition Width="300"/>
             </Grid.ColumnDefinitions>
-            <StackPanel Orientation="Horizontal" Grid.Column="1" DataContext="{Binding SelectedStore}">
+
+            <!--Useless box-->
+            <!--<StackPanel Orientation="Horizontal" Grid.Column="1" DataContext="{Binding SelectedStore}">
                 <Label>Article name:</Label>
                 <TextBox Text="{Binding Title}"/>
-            </StackPanel>
+            </StackPanel>-->
         </Grid>
+        
     </Grid>
 </Page>
