@@ -41,7 +41,7 @@ namespace HMTDPTeamLibraryProject {
     public partial class Books : System.Windows.Controls.Page, System.Windows.Markup.IComponentConnector {
         
         
-        #line 58 "..\..\..\MainPages\Books.xaml"
+        #line 98 "..\..\..\MainPages\Books.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.ListView booksList;
         

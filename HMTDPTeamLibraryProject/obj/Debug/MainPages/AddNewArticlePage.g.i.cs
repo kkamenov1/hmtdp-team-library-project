@@ -41,7 +41,7 @@ namespace HMTDPTeamLibraryProject {
     public partial class AddNewArticlePage : System.Windows.Controls.Page, System.Windows.Markup.IComponentConnector {
         
         
-        #line 59 "..\..\..\MainPages\AddNewArticlePage.xaml"
+        #line 90 "..\..\..\MainPages\AddNewArticlePage.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBox yearbox;
         
@@ -49,7 +49,7 @@ namespace HMTDPTeamLibraryProject {
         #line hidden
         
         
-        #line 61 "..\..\..\MainPages\AddNewArticlePage.xaml"
+        #line 104 "..\..\..\MainPages\AddNewArticlePage.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBox monthbox;
         
@@ -57,7 +57,7 @@ namespace HMTDPTeamLibraryProject {
         #line hidden
         
         
-        #line 63 "..\..\..\MainPages\AddNewArticlePage.xaml"
+        #line 116 "..\..\..\MainPages\AddNewArticlePage.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBox daybox;
         
@@ -105,7 +105,7 @@ namespace HMTDPTeamLibraryProject {
             return;
             case 4:
             
-            #line 90 "..\..\..\MainPages\AddNewArticlePage.xaml"
+            #line 174 "..\..\..\MainPages\AddNewArticlePage.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.OnAddClick);
             
             #line default
@@ -113,7 +113,7 @@ namespace HMTDPTeamLibraryProject {
             return;
             case 5:
             
-            #line 96 "..\..\..\MainPages\AddNewArticlePage.xaml"
+            #line 181 "..\..\..\MainPages\AddNewArticlePage.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.OnArticlesClick);
             
             #line default

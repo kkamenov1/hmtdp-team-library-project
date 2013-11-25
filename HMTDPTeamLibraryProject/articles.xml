@@ -1,17 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <articles>
   <article>
-    <author>wewew</author>
-    <title>ewe</title>
-    <year>2013</year>
-    <month>11</month>
-    <day>23</day>
-    <image>..\..\Images\NinjaPic.png</image>
-    <category>wew</category>
-    <description>ewew</description>
-    <contents></contents>
-  </article>
-  <article>
     <author>Brian Switek</author>
     <title>Newfound Giant Dinosaur Ruled Before T. Rex</title>
     <year>2013</year>
@@ -65,28 +54,6 @@ Until now, there were "25 million years of missing data," Benson says, between a
 With Siats at 98 million years old, he adds, the dinosaur "shows us that allosaurids stayed on top for at least another 10 million years." Exactly when and why dinosaurs like Siats gave way to the tyrannosaurs, however, relies on future Cretaceous finds from this final era of the Age of Dinosaurs.</contents>
   </article>
   <article>
-    <author>we</author>
-    <title>qeq</title>
-    <year>2013</year>
-    <month>11</month>
-    <day>23</day>
-    <image>..\..\Images\NinjaPic.png</image>
-    <category>eqeq</category>
-    <description>eqeq</description>
-    <contents></contents>
-  </article>
-  <article>
-    <author>Pl</author>
-    <title>tesyt</title>
-    <year>2013</year>
-    <month>11</month>
-    <day>23</day>
-    <image>..\..\Images\NinjaPic.png</image>
-    <category>wew</category>
-    <description>ewew</description>
-    <contents></contents>
-  </article>
-  <article>
     <author>Plamen3</author>
     <title>Title3</title>
     <year>2012</year>
@@ -98,36 +65,14 @@ With Siats at 98 million years old, he adds, the dinosaur "shows us that allosau
     <contents>asaxbxcbcx</contents>
   </article>
   <article>
-    <author>wewe</author>
-    <title>we</title>
+    <author>Unknown</author>
+    <title>RandomGenerated</title>
     <year>2013</year>
     <month>11</month>
-    <day>23</day>
+    <day>24</day>
     <image>..\..\Images\NinjaPic.png</image>
-    <category>wewe</category>
-    <description>wewewew</description>
-    <contents></contents>
-  </article>
-  <article>
-    <author>wewe</author>
-    <title>wew</title>
-    <year>2012</year>
-    <month>2</month>
-    <day>2</day>
-    <image>..\..\Images\NinjaPic.png</image>
-    <category>ewew</category>
-    <description>ew</description>
-    <contents></contents>
-  </article>
-  <article>
-    <author>wewe</author>
-    <title>wew</title>
-    <year>2013</year>
-    <month>11</month>
-    <day>23</day>
-    <image>..\..\Images\NinjaPic.png</image>
-    <category>ewewe</category>
-    <description>wewew</description>
-    <contents></contents>
+    <category>NotMentioned</category>
+    <description>N/A</description>
+    <contents>A simple context information</contents>
   </article>
 </articles>
