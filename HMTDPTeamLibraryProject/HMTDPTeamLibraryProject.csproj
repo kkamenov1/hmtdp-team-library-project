@@ -56,8 +56,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="MainPages\Books.xaml.cs">
-      <DependentUpon>Books.xaml</DependentUpon>
+    <Compile Include="MainPages\InfoPage.xaml.cs">
+      <DependentUpon>InfoPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Search and Sort\Sort.cs" />
     <Compile Include="MainPages\AddNewArticlePage.xaml.cs">
@@ -80,7 +80,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="MainPages\Books.xaml">
+    <Page Include="MainPages\InfoPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -173,6 +173,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\SearchArticlePic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Info.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

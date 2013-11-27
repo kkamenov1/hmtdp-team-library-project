@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\VS Projects\root\HMTDPTeamLibraryProject\obj\Debug\
+D:\telerik\1. programming\OOP\TeamWork\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\
 HMTDPTeamLibraryProject
 none
 false
 DEBUG;TRACE
-D:\VS Projects\root\HMTDPTeamLibraryProject\App.xaml
-71131746986
+D:\telerik\1. programming\OOP\TeamWork\hmtdp-team-library-project\HMTDPTeamLibraryProject\App.xaml
+7-991217176
 
-22893922953
-15-1949020456
-MainPages\AddNewArticlePage.xaml;MainPages\Books.xaml;MainPages\LibraryListPage.xaml;MainWindow.xaml;MainPages\ReadArticlePage.xaml;MainPages\StartPage.xaml;MainPages\SearchPage.xaml;
+221313233971
+15-1751750030
+MainPages\AddNewArticlePage.xaml;MainPages\InfoPage.xaml;MainPages\LibraryListPage.xaml;MainWindow.xaml;MainPages\ReadArticlePage.xaml;MainPages\StartPage.xaml;MainPages\SearchPage.xaml;
 
 False
 
