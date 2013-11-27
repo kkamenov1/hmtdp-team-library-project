@@ -69,11 +69,6 @@ namespace HMTDPTeamLibraryProject
             WindowState = WindowState.Minimized;
         }
 
-        private void OnInfoButtonClick(object sender, RoutedEventArgs e)
-        {
-           
-        }
-
         private void OnCheckButtonClick(object sender, RoutedEventArgs e)
         {
           
