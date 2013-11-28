@@ -64,6 +64,8 @@ namespace HMTDPTeamLibraryProject
             //}
         }
 
+        //TO DO - remove On Exit / On Minimize
+
         private void OnMinimizeButtonClick(object sender, RoutedEventArgs e)
         {
             WindowState = WindowState.Minimized;

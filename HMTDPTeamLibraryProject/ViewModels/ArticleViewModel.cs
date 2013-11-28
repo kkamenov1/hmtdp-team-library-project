@@ -29,7 +29,7 @@ namespace HMTDPTeamLibraryProject.ViewModels
             {
                 if (imagePath == null)
                 {
-                    imagePath = "..\\..\\Images\\NinjaPic.png";
+                    imagePath = "..\\..\\Images\\NinjaPic.png";   // TO DO - Change icon
                 }
             }
         }
