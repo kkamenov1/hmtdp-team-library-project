@@ -59,6 +59,8 @@
     <Compile Include="MainPages\InfoPage.xaml.cs">
       <DependentUpon>InfoPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Search and Sort\ISortable.cs" />
+    <Compile Include="Search and Sort\Search.cs" />
     <Compile Include="Search and Sort\Sort.cs" />
     <Compile Include="MainPages\AddNewArticlePage.xaml.cs">
       <DependentUpon>AddNewArticlePage.xaml</DependentUpon>
