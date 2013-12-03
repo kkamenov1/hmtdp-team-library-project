@@ -9,25 +9,9 @@ using System.Threading.Tasks;
 
 namespace HMTDPTeamLibraryProject
 {
-    //TODO: We can add an interface here.
     public class Sort : ISortable
     {
         private IEnumerable<ArticleViewModel> articles = DataPersister.GetArticle(MainWindow.mainFilePath);
-
-        public IEnumerable<ArticleViewModel> Search(string searchedWord, string property)
-        {
-            IList<ArticleViewModel> result = new IList<ArticleViewModel>();
-            foreach (var item in articles)
-            {
-
-                if (item.Author == property && item.Author.Contains(searchedWord))
-                {
-                    result.Add(item);
-                }
-            }
-
-            return articles;
-        }
 
         public IEnumerable<ArticleViewModel> SortByAttribute(string attributName)
         {
