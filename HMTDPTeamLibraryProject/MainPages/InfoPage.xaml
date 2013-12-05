@@ -1,0 +1,75 @@
+﻿<Page x:Class="HMTDPTeamLibraryProject.InfoPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      xmlns:viewModels="clr-namespace:HMTDPTeamLibraryProject.ViewModels"
+      d:DesignHeight="500" d:DesignWidth="800"
+	Title="InfoPage">
+
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush Opacity="0.22">
+                <GradientStop Color="GreenYellow"  Offset="0.5"/>
+                <GradientStop Color="LightGreen"  Offset="0.6"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBox Grid.Row="1" Margin="120,0,120,0"
+                    Name="titleTeam"
+                    SpellCheck.IsEnabled="True" 
+                    AcceptsReturn="True" 
+                    AutoWordSelection="True" 
+                    BorderBrush="Transparent"
+                    Foreground="SteelBlue"
+                    IsReadOnly="True"
+                    FontSize="25"
+                    FontStyle="Normal"
+                    FontWeight="ExtraBold"
+                    HorizontalContentAlignment="Center"
+                    VerticalAlignment="Center"
+                    ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                    ScrollViewer.VerticalScrollBarVisibility="Auto"
+                 Text="Team members">
+            <TextBox.Background>
+                <LinearGradientBrush Opacity="0.11">
+                    <GradientStop Color="DarkSlateGray"  Offset="3"/>
+                    <GradientStop Color="Aquamarine" Offset="3"/>
+                </LinearGradientBrush>
+            </TextBox.Background>
+        </TextBox>
+
+        <Grid Grid.Row="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="*"/>
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Row="0" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" Grid.ColumnSpan="3" Margin="0,1,0,0" Width="300" Height="49" RenderTransformOrigin="0.839,0.571" >Hristo Bakalov</TextBlock>
+            <TextBlock Grid.Row="1" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" Grid.ColumnSpan="3" Margin="0,1,0,0" Width="300" Height="49" RenderTransformOrigin="0.839,0.571" >Диана Иванова</TextBlock>
+            <TextBlock Grid.Row="2" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" Grid.ColumnSpan="3" Margin="0,1,2,0" Width="298" Height="49" RenderTransformOrigin="0.839,0.571" >Мария Стефанова</TextBlock>
+            <TextBlock Grid.Row="3" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" Grid.ColumnSpan="3" Margin="0,1,0,0" Width="300" Height="49" RenderTransformOrigin="0.839,0.571" >Пламен Станев</TextBlock>
+            <TextBlock Grid.Row="4" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" Grid.ColumnSpan="4" Margin="4,0,96,2" Width="300" Height="48" RenderTransformOrigin="0.839,0.571" >Тодор Чамурлийски</TextBlock>
+        </Grid>
+    </Grid>
+
+</Page>
