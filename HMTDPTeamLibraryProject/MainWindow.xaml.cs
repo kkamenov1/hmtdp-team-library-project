@@ -25,13 +25,28 @@ namespace HMTDPTeamLibraryProject
         public MainWindow()
         {
             InitializeComponent();
+           
             mainFrame.Navigate(new StartPage());
+            mainFrame.Navigate(new Uri("MainPages/LibraryListPage.xaml", UriKind.Relative));
         }
+
+        
 
         void OnHomeButtonClick(object sender, RoutedEventArgs args)
         {
             mainFrame.Navigate(new StartPage());
         }
+
+        void OpenAllArticlesClick(object sender, RoutedEventArgs e)
+        {
+            mainFrame.Navigate(new Uri("MainPages/LibraryListPage.xaml", UriKind.Relative));
+        }
+
+        void OpenNewArticleClick(object sender, RoutedEventArgs e)
+        {
+            mainFrame.Navigate(new Uri("MainPages/AddNewArticlePage.xaml", UriKind.Relative));
+        }
+
 
         protected override void OnClosing(System.ComponentModel.CancelEventArgs e)
         {
