@@ -1,89 +1,72 @@
-﻿using System;
-using System.Data;
+﻿using HMTDPTeamLibraryProject.Search_and_Sort;
+using HMTDPTeamLibraryProject.ViewModels;
+using System;
+using System.Collections.Generic;
 using System.Linq;
-using System.Data.SqlClient;
-using System.Windows.Input;
-using System.Windows.Shapes;
+using System.Reflection;
+using System.Text;
+using System.Threading.Tasks;
+
 
 namespace HMTDPTeamLibraryProject.Search_and_Sort
 {
-    public partial class Search : SearchPage
+    public class Search : ISearchable
     {
-        DataSet dstResults = new DataSet();
-        DataView myView;
+        private IEnumerable<ArticleViewModel> articles = DataPersister.GetArticle(MainWindow.mainFilePath);
 
-        public Search()
+        public IEnumerable<ArticleViewModel> SearchByWordAndProp(string searchedWord, string property)
         {
-            InitializeComponent();
-        }
-
-        private void Search_Load(object sender, EventArgs e)
-        {
-            //Populates the DataSet using a helper method
-            ReadData("SELECT * FROM adventureworks.production.vproductanddescription",
-                ref dstResults, "Products");
-
-            //Creates a DataView from our table's default view
-            myView = ((DataTable)dstResults.Tables["Products"]).DefaultView;
-
-            //Assigns the DataView to the grid
-            dgvResults.DataSource = myView;
-        }
-
-        //This method is fired by the KeyUp event handler on the textbox.
-        //The purpose of this method is to take the text from the search
-        //box, split it up into words, and then create and assign a filter
-        //statement that will do a LIKE comparison on each of the selected
-        //search fields.  Each word's filter statement is AND'ed together
-        private void txtSearch_KeyUp(object sender, KeyEventArgs e)
-        {
-            string outputInfo = "";
-            string[] keyWords = txtSearch.ToString().Split(' ');
-
-            //Text.Split
-
-            foreach (string word in keyWords)
+            IList<ArticleViewModel> result = new IList<ArticleViewModel>();
+            foreach (var art in articles)
             {
-                if (outputInfo.Length == 0)
+                switch (property)
                 {
-                    outputInfo = "(Name LIKE '%" + word + "%' OR ProductModel LIKE '%" +
-                        word + "%' OR Description LIKE '%" + word + "%')";
+                    case "Author":
+                        if (art.Author.Contains(searchedWord))
+                        {
+                            result.Add(art);
+                        }
+                        break;
+                    case "Category":
+                        if (art.Category.Contains(searchedWord))
+                        {
+                            result.Add(art);
+                        }
+                        break;
+                    case "Contents":
+                        if (art.Contents.Contains(searchedWord))
+                        {
+                            result.Add(art);
+                        }
+                        break;
+                    case "Title":
+                        if (art.Title.Contains(searchedWord))
+                        {
+                            result.Add(art);
+                        }
+                        break;
+                    case "Year":
+                        string[] date = searchedWord.Split('.');
+                        if (art.Year == (Convert.ToInt32(date[2])) && art.Month == (Convert.ToInt32(date[1]))
+                            && art.Day == (Convert.ToInt32(date[0])))
+                        {
+                            result.Add(art);
+                        }
+                        break;
+
+                    default:
+                        break;
                 }
-                else
+                if (art.Author == property && art.Author.Contains(searchedWord))
                 {
-                    outputInfo += " AND (Name LIKE '%" + word + "%' OR ProductModel LIKE '%" +
-                        word + "%' OR Description LIKE '%" + word + "%')";
+                    result.Add(art);
                 }
             }
 
-            //Applies the filter to the DataView
-            myView.RowFilter = outputInfo;
+            return (IEnumerable<ArticleViewModel>)result;
         }
 
-        //A helper class that just dumps the SQL command into a DataSet and passes it back.
-        //This isn't a method that is production-ready.  It is simply used here as a way
-        //to populate our DataSet.
-        public void ReadData(string strSQL, ref DataSet dstMain, string strTableName = "default")
-        {
-            try
-            {
-                string connectionString = "Database=AdventureWorks;Data Source=localhost;Trusted_Connection=True";
-                SqlConnection cnn = new SqlConnection(connectionString);
-                SqlCommand cmd = new SqlCommand(strSQL, cnn);
-                cnn.Open();
-                SqlDataAdapter da = new SqlDataAdapter(cmd);
-                da.Fill(dstMain, strTableName);
-                da.Dispose();
-                cnn.Close();
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.ToString());
-            }
-        }
 
-        private SearchPage txtSearch;
-        private SearchPage dgvResults;
-        private SearchPage lblSearch;
+
     }
 }
