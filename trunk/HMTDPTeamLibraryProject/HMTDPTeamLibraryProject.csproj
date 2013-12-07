@@ -39,6 +39,7 @@
     <Reference Include="System.Data" />
     <Reference Include="System.ServiceModel" />
     <Reference Include="System.ServiceModel.Activities" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -50,15 +51,15 @@
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
+    <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="MainPages\InfoPage.xaml.cs">
-      <DependentUpon>InfoPage.xaml</DependentUpon>
-    </Compile>
+    <Compile Include="Search and Sort\Search.cs" />
+    <Compile Include="Search and Sort\SearchCore.cs" />
     <Compile Include="Search and Sort\ISearchable.cs" />
     <Compile Include="Search and Sort\ISortable.cs" />
     <Compile Include="Search and Sort\Search.cs" />
@@ -80,10 +81,6 @@
     <Compile Include="ViewModels\DataPersister.cs" />
     <Compile Include="ViewModels\ViewModelBase.cs" />
     <Page Include="MainPages\AddNewArticlePage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="MainPages\InfoPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -179,6 +176,14 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\Info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Articles.png" />
+    <Resource Include="Images\Forward.png" />
+    <Resource Include="Images\Home.png" />
+    <Resource Include="Images\NewArticle.png" />
+    <Resource Include="Images\Return.png" />
+    <Resource Include="Images\Search.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

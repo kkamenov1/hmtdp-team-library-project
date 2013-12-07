@@ -185,6 +185,25 @@
                 <Image  Stretch="Fill"/>
             </Button>
 
+            <Button 
+                                Grid.ColumnSpan="3"
+                                Grid.Column="11"
+                               
+                                ToolTip="Articles"
+                                HorizontalAlignment="Left"
+                                Margin="41,-4,0,-7"
+                                VerticalAlignment="Top"
+                                Width="48" Height="48"
+                                BorderBrush="{x:Null}"
+                                Visibility="Visible"
+                                FontFamily="Segoe UI Symbol" 
+                                Content="&#xE1B5;"
+                                >
+                <Button.Background>
+                    <ImageBrush ImageSource="pack://application:,,,/Images/Info.png"/>
+                </Button.Background>
+            </Button>
+
         </Grid>
     </Grid>
 </Page>
