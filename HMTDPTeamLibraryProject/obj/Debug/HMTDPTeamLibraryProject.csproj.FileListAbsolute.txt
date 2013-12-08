@@ -146,3 +146,5 @@ D:\telerik\1. programming\OOP\TeamWork\hmtdp-team-library-project\HMTDPTeamLibra
 D:\telerik\1. programming\OOP\TeamWork\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\MainPages\InfoPage.g.cs
 D:\telerik\1. programming\OOP\TeamWork\hmtdp-team-library-project\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject.csprojResolveAssemblyReference.cache
 D:\VS Projects\root\HMTDPTeamLibraryProject\obj\Debug\HMTDPTeamLibraryProject.csprojResolveAssemblyReference.cache
+C:\Users\Ico\Documents\Visual Studio 2012\Projects\OOP\10. Team Work\HMTDPTeamLibraryProject\obj\Debug\MainPages\SearchPage.baml
+C:\Users\Ico\Documents\Visual Studio 2012\Projects\OOP\10. Team Work\HMTDPTeamLibraryProject\obj\Debug\MainPages\SearchPage.g.cs

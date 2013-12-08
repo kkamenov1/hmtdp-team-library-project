@@ -58,7 +58,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Search and Sort\Search.cs" />
+    <Compile Include="Search and Sort\ArticleViewModelPropertyEnum.cs" />
     <Compile Include="Search and Sort\SearchCore.cs" />
     <Compile Include="Search and Sort\ISearchable.cs" />
     <Compile Include="Search and Sort\ISortable.cs" />

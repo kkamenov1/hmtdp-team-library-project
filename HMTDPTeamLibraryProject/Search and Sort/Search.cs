@@ -19,54 +19,34 @@ namespace HMTDPTeamLibraryProject.Search_and_Sort
             IList<ArticleViewModel> result = new IList<ArticleViewModel>();
             foreach (var art in articles)
             {
-                switch (property)
-                {
-                    case "Author":
-                        if (art.Author.Contains(searchedWord))
-                        {
-                            result.Add(art);
-                        }
-                        break;
-                    case "Category":
-                        if (art.Category.Contains(searchedWord))
-                        {
-                            result.Add(art);
-                        }
-                        break;
-                    case "Contents":
-                        if (art.Contents.Contains(searchedWord))
-                        {
-                            result.Add(art);
-                        }
-                        break;
-                    case "Title":
-                        if (art.Title.Contains(searchedWord))
-                        {
-                            result.Add(art);
-                        }
-                        break;
-                    case "Year":
-                        string[] date = searchedWord.Split('.');
-                        if (art.Year == (Convert.ToInt32(date[2])) && art.Month == (Convert.ToInt32(date[1]))
-                            && art.Day == (Convert.ToInt32(date[0])))
-                        {
-                            result.Add(art);
-                        }
-                        break;
-
-                    default:
-                        break;
-                }
-                if (art.Author == property && art.Author.Contains(searchedWord))
+                if (property == ArticleProp.Author && art.Author.Contains(searchedWord))
                 {
                     result.Add(art);
+                }
+                else if (property == ArticleProp.Category && art.Category.Contains(searchedWord))
+                {
+                    result.Add(art);
+                }
+                else if (property == ArticleProp.Contents && art.Contents.Contains(searchedWord))
+                {
+                    result.Add(art);
+                }
+                else if (property == ArticleProp.Title && art.Title.Contains(searchedWord))
+                {
+                    result.Add(art);
+                }
+                else if (property == ArticleProp.Year)
+                {
+                    string[] date = searchedWord.Split('.');
+                    if (art.Year == (Convert.ToInt32(date[2])) && art.Month == (Convert.ToInt32(date[1]))
+                        && art.Day == (Convert.ToInt32(date[0])))
+                    {
+                        result.Add(art);
+                    }
                 }
             }
 
             return (IEnumerable<ArticleViewModel>)result;
         }
-
-
-
     }
 }
