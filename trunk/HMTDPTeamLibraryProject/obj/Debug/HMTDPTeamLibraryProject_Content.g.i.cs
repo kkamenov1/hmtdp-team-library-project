@@ -8,13 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/allauthorspic.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/allbookspic.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/author.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/intralgpic.jpg")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/nakovalgpic.jpg")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/ngpic.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/progralgpic.jpg")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/templatepic.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/teammembers.png")]
 
 

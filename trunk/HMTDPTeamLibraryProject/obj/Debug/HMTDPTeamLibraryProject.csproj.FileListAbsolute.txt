@@ -182,3 +182,5 @@ C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\obj\Debug\MainPages\Sample
 C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\obj\Debug\MainPages\SimpleAuthorPage.baml
 C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\obj\Debug\MainPages\LibraryListPageAuthor.baml
 C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\obj\Debug\MainPages\LibraryListPageBook.baml
+C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\obj\Debug\MainPages\NewInfoPage.baml
+C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\obj\Debug\MainPages\NewInfoPage.g.cs

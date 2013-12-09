@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\App.xaml
-10-1409922120
+111023766767
 
-371428417952
+38-929373803
 17-1572536961
-MainPages\AddNewArticlePage.xaml;MainPages\LibraryListPage.xaml;MainPages\LibraryListPageAuthor.xaml;MainPages\LibraryListPageBook.xaml;MainPages\SampleBookPage.xaml;MainPages\SimpleAuthorPage.xaml;MainWindow.xaml;MainPages\ReadArticlePage.xaml;MainPages\StartPage.xaml;MainPages\SearchPage.xaml;
+MainPages\AddNewArticlePage.xaml;MainPages\LibraryListPage.xaml;MainPages\LibraryListPageAuthor.xaml;MainPages\LibraryListPageBook.xaml;MainPages\SampleBookPage.xaml;MainPages\SimpleAuthorPage.xaml;MainWindow.xaml;MainPages\ReadArticlePage.xaml;MainPages\StartPage.xaml;MainPages\SearchPage.xaml;MainPages\NewInfoPage.xaml;
 
 False
 

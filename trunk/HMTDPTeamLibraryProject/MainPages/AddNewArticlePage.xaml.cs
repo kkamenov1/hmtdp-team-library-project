@@ -27,6 +27,17 @@ namespace HMTDPTeamLibraryProject
 
         private void OnAddClick(object sender, RoutedEventArgs e)
         {
+            try
+            {
+                int testdate1 = int.Parse(yearbox.Text);
+                int testdate2 = int.Parse(monthbox.Text);
+                int testdate3 = int.Parse(daybox.Text);
+            }
+            catch (Exception)
+            {
+                string outputMessage = "Please check your date";
+                MessageBoxResult result = MessageBox.Show(outputMessage);
+            }
         }
 
         private void OnArticlesClick(object sender, RoutedEventArgs e)
@@ -46,6 +57,5 @@ namespace HMTDPTeamLibraryProject
             daybox.Text = selectedDate.Day.ToString();
             daybox.Focus();
         }
-
     }
 }

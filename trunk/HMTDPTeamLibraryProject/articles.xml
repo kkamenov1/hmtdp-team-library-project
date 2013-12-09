@@ -1,37 +1,92 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <articles>
   <article>
-    <author>Andrew Fazekas</author>
-    <title>6 Sky Events This Week: Dawn Planets, Lunar Encounters, and Celestial Hunter</title>
+    <author>Thomas Cormen</author>
+    <title>Algorithms</title>
     <year>2013</year>
     <month>11</month>
-    <day>25</day>
-    <image>C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\bin\Debug\..\..\Images\NGPic.png</image>
-    <category>Space</category>
-    <description>National Geographic</description>
-    <contents>As we head toward the final days of November, skywatchers spy pretty planetary and lunar pairings and a mythical hunter, while anxiously waiting to learn of the fate of comet ISON as it rounds the sun.
+    <day>1</day>
+    <image>C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\bin\Debug\..\..\Images\IntrAlgPic.jpg</image>
+    <category>Introduction to Algorithms 3rd Edition</category>
+    <description>The Role of Algorithms in Computing</description>
+    <contents>Informally, an algorithm is any well-defined computational procedure that takes
+some value, or set of values, as input and produces some value, or set of values, as
+output. An algorithm is thus a sequence of computational steps that transform the
+input into the output.
+We can also view an algorithm as a tool for solving a well-specified computational
+problem. The statement of the problem specifies in general terms the desired
+input/output relationship. The algorithm describes a specific computational procedure
+for achieving that input/output relationship.
+For example, we might need to sort a sequence of numbers into nondecreasing
+order. This problem arises frequently in practice and provides fertile ground for
+introducing many standard design techniques and analysis tools. Here is how we
+formally define the sorting problem:
+Input: A sequence of n numbers ha1; a2; : : : ;ani.
+Output: A permutation (reordering) ha0
 
-Moon and Regulus. In the hours before sunrise on Tuesday, November 26, look for the last quarter moon to fill the southeast sky. Perched to its upper right is the bright blue-white star Regulus, the brightest member of the constellation Leo (the lion).
-
-Despite being 78 light years away, Regulus ranks as the 21st brightest star in the entire sky.  A true stellar giant, it weighs in with about four times the mass of our sun and has surface temperatures that are roughly double, which means it is burning its gas fuel at a fast and furious pace.
-
-So while its estimated age is only a few hundred million years old, it is probably already becoming elderly and will likely die before it reaches a billion years in age. That may sound like an incredibly long time, but compare it to our own sun’s lifetime, which is estimated to be as much as 10 billion years long.
-
-Mercury and Saturn. As dawn approaches on Tuesday, November 26, you can glimpse two naked-eye planets, Mercury and Saturn very low in the southeast sky from around the globe.
-
-The pair of worlds will appear separated by only one degree, equal to the width of two full moons side by side in the sky.  Easily fitting into the view of binoculars and telescopes, Mercury will appear hanging below the brighter Saturn.
-
-And that faint little star to the planetary pair’s upper right? That is 77 light-year distant Zubernelgenubi, the lead star in the zodiacal constellation Libra (the scales). It’s name is derived from Arabic meaning the “southern claw of the scorpion,” referring to ancient Babylonian times when astronomers considered this star part of the Scorpius constellation.
-
-Moon and Mars. In the early morning hours of Wednesday, November 27, the waning crescent moon forms a stunning pair with the ruddy colored Mars. The celestial duo will appear only about five degrees apart, equal to the span of your three middle fingers at arm’s length.
-
-It’s kind of amazing to think that this orange point of light is actually another world some 254 million kilometers away, and that both NASA and India have orbiters now heading towards the red planet.
-
-ISON Perihelion.  On Thursday, November 28, comet ISON makes it closest approach to the sun (perihelion). While skywatchers wait anxiously to see if the icy visitor survives its scorching encounter—passing less than 1.1 million kilometers above the sun’s surface—NASA’s solar probes are watching all the action from space.  So while the next few days Comet ISON is too close to the glare of the sun to see, STEREO-A spacecraft is continually monitoring it along with Earth, Mercury, and even Comet Encke.
-
-Moon and Planet Line-up. Set your alarms early for Sunday, December 1, when the razor-thin crescent moon appears sandwiched in between Mercury and Saturn. The dawn sky show will play out in the very low southeast and is best seen from a vantage point that has no obstruction towards the horizon.
-
-Winter Orion Rises. By mid-evening on Sunday, December 1, look towards the southeast sky for the winter season’s most celebrated constellation—Orion, the hunter. It’s stellar pattern is one of the easiest to recognize for novice skywatchers thanks to the perfect alignment of three equally bright stars in a row, which marks the belt of Orion. Meanwhile, to the upper left of the belt, is the bright orange star Betelgeuse, which marks the left shoulder of the legendary hunter.  Rigel marks the right knee of the stellar character below right of the trio.</contents>
+For example, given the input sequence h31; 41; 59; 26; 41; 58i, a sorting algorithm
+returns as output the sequence h26; 31; 41; 41; 58; 59i. Such an input sequence is
+called an instance of the sorting problem. In general, an instance of a problem
+consists of the input (satisfying whatever constraints are imposed in the problem
+statement) needed to compute a solution to the problem
+Because many programs use it as an intermediate step, sorting is a fundamental
+operation in computer science. As a result, we have a large number of good sorting
+algorithms at our disposal. Which algorithm is best for a given application depends
+on—among other factors—the number of items to be sorted, the extent to which
+the items are already somewhat sorted, possible restrictions on the item values,
+the architecture of the computer, and the kind of storage devices to be used: main
+memory, disks, or even tapes.
+An algorithm is said to be correct if, for every input instance, it halts with the
+correct output. We say that a correct algorithm solves the given computational
+problem. An incorrect algorithm might not halt at all on some input instances, or it
+might halt with an incorrect answer. Contrary to what you might expect, incorrect
+algorithms can sometimes be useful, if we can control their error rate. We shall see
+an example of an algorithm with a controllable error rate in Chapter 31 when we
+study algorithms for finding large prime numbers. Ordinarily, however, we shall
+be concerned only with correct algorithms.
+An algorithm can be specified in English, as a computer program, or even as
+a hardware design. The only requirement is that the specification must provide a
+precise description of the computational procedure to be followed.</contents>
+  </article>
+  <article>
+    <author>Thomas Cormen</author>
+    <title>Stacks and queues</title>
+    <year>2013</year>
+    <month>12</month>
+    <day>1</day>
+    <image>C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\bin\Debug\..\..\Images\IntrAlgPic.jpg</image>
+    <category>Introduction to Algorithms 3rd Edition</category>
+    <description>Elementary Data Structures</description>
+    <contents>Stacks and queues are dynamic sets in which the element removed from the set
+by the DELETE operation is prespecified. In a stack, the element deleted from
+the set is the one most recently inserted: the stack implements a last-in, first-out,
+or LIFO, policy. Similarly, in a queue, the element deleted is always the one that
+has been in the set for the longest time: the queue implements a first-in, first-out,
+or FIFO, policy. There are several efficient ways to implement stacks and queues
+on a computer. In this section we show how to use a simple array to implement
+each.
+Stacks
+The INSERT operation on a stack is often called PUSH, and the DELETE operation,
+which does not take an element argument, is often called POP. These names
+are allusions to physical stacks, such as the spring-loaded stacks of plates used
+in cafeterias. The order in which plates are popped from the stack is the reverse
+of the order in which they were pushed onto the stack, since only the top plate is
+accessible.</contents>
+  </article>
+  <article>
+    <author>Thomas Cormen</author>
+    <title>Linked lists</title>
+    <year>2013</year>
+    <month>12</month>
+    <day>5</day>
+    <image>C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\bin\Debug\..\..\Images\IntrAlgPic.jpg</image>
+    <category>Introduction to Algorithms 3rd Edition</category>
+    <description>Elementary Data Structures</description>
+    <contents>A linked list is a data structure in which the objects are arranged in a linear order.
+Unlike an array, however, in which the linear order is determined by the array
+indices, the order in a linked list is determined by a pointer in each object. Linked
+lists provide a simple, flexible representation for dynamic sets, supporting (though
+not necessarily efficiently) all the operations listed on page 230.</contents>
   </article>
   <article>
     <author>Brian Switek</author>
@@ -130,6 +185,39 @@ Overall, the findings are updating the view of the enigmatic Moche, who didn't l
 "We have to do a lot of careful detective work, still," says Verano, who has been part of excavation work at Huaca de Moches for more than a decade.</contents>
   </article>
   <article>
+    <author>Andrew Fazekas</author>
+    <title>6 Sky Events This Week: Dawn Planets, Lunar Encounters, and Celestial Hunter</title>
+    <year>2013</year>
+    <month>11</month>
+    <day>25</day>
+    <image>C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\bin\Debug\..\..\Images\NGPic.png</image>
+    <category>Space</category>
+    <description>National Geographic</description>
+    <contents>As we head toward the final days of November, skywatchers spy pretty planetary and lunar pairings and a mythical hunter, while anxiously waiting to learn of the fate of comet ISON as it rounds the sun.
+
+Moon and Regulus. In the hours before sunrise on Tuesday, November 26, look for the last quarter moon to fill the southeast sky. Perched to its upper right is the bright blue-white star Regulus, the brightest member of the constellation Leo (the lion).
+
+Despite being 78 light years away, Regulus ranks as the 21st brightest star in the entire sky.  A true stellar giant, it weighs in with about four times the mass of our sun and has surface temperatures that are roughly double, which means it is burning its gas fuel at a fast and furious pace.
+
+So while its estimated age is only a few hundred million years old, it is probably already becoming elderly and will likely die before it reaches a billion years in age. That may sound like an incredibly long time, but compare it to our own sun’s lifetime, which is estimated to be as much as 10 billion years long.
+
+Mercury and Saturn. As dawn approaches on Tuesday, November 26, you can glimpse two naked-eye planets, Mercury and Saturn very low in the southeast sky from around the globe.
+
+The pair of worlds will appear separated by only one degree, equal to the width of two full moons side by side in the sky.  Easily fitting into the view of binoculars and telescopes, Mercury will appear hanging below the brighter Saturn.
+
+And that faint little star to the planetary pair’s upper right? That is 77 light-year distant Zubernelgenubi, the lead star in the zodiacal constellation Libra (the scales). It’s name is derived from Arabic meaning the “southern claw of the scorpion,” referring to ancient Babylonian times when astronomers considered this star part of the Scorpius constellation.
+
+Moon and Mars. In the early morning hours of Wednesday, November 27, the waning crescent moon forms a stunning pair with the ruddy colored Mars. The celestial duo will appear only about five degrees apart, equal to the span of your three middle fingers at arm’s length.
+
+It’s kind of amazing to think that this orange point of light is actually another world some 254 million kilometers away, and that both NASA and India have orbiters now heading towards the red planet.
+
+ISON Perihelion.  On Thursday, November 28, comet ISON makes it closest approach to the sun (perihelion). While skywatchers wait anxiously to see if the icy visitor survives its scorching encounter—passing less than 1.1 million kilometers above the sun’s surface—NASA’s solar probes are watching all the action from space.  So while the next few days Comet ISON is too close to the glare of the sun to see, STEREO-A spacecraft is continually monitoring it along with Earth, Mercury, and even Comet Encke.
+
+Moon and Planet Line-up. Set your alarms early for Sunday, December 1, when the razor-thin crescent moon appears sandwiched in between Mercury and Saturn. The dawn sky show will play out in the very low southeast and is best seen from a vantage point that has no obstruction towards the horizon.
+
+Winter Orion Rises. By mid-evening on Sunday, December 1, look towards the southeast sky for the winter season’s most celebrated constellation—Orion, the hunter. It’s stellar pattern is one of the easiest to recognize for novice skywatchers thanks to the perfect alignment of three equally bright stars in a row, which marks the belt of Orion. Meanwhile, to the upper left of the belt, is the bright orange star Betelgeuse, which marks the left shoulder of the legendary hunter.  Rigel marks the right knee of the stellar character below right of the trio.</contents>
+  </article>
+  <article>
     <author>Lisa Winter</author>
     <title>The Most Extreme Weather In the Solar System</title>
     <year>2013</year>
@@ -198,126 +286,6 @@ Our solar system is home to some pretty extreme weather. Learning about how thes
 Correction: The saltwater ocean on Europa is 62 miles (100 km) deep, not the layer of ice.
 
 - See more at: http://www.iflscience.com/space/most-extreme-weather-solar-system#sthash.3HjMiNr5.dpuf</contents>
-  </article>
-  <article>
-    <author>Thomas Cormen</author>
-    <title>Algorithms</title>
-    <year>2013</year>
-    <month>11</month>
-    <day>1</day>
-    <image>C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\bin\Debug\..\..\Images\IntrAlgPic.jpg</image>
-    <category>Introduction to Algorithms 3rd Edition</category>
-    <description>The Role of Algorithms in Computing</description>
-    <contents>Informally, an algorithm is any well-defined computational procedure that takes
-some value, or set of values, as input and produces some value, or set of values, as
-output. An algorithm is thus a sequence of computational steps that transform the
-input into the output.
-We can also view an algorithm as a tool for solving a well-specified computational
-problem. The statement of the problem specifies in general terms the desired
-input/output relationship. The algorithm describes a specific computational procedure
-for achieving that input/output relationship.
-For example, we might need to sort a sequence of numbers into nondecreasing
-order. This problem arises frequently in practice and provides fertile ground for
-introducing many standard design techniques and analysis tools. Here is how we
-formally define the sorting problem:
-Input: A sequence of n numbers ha1; a2; : : : ;ani.
-Output: A permutation (reordering) ha0
-
-For example, given the input sequence h31; 41; 59; 26; 41; 58i, a sorting algorithm
-returns as output the sequence h26; 31; 41; 41; 58; 59i. Such an input sequence is
-called an instance of the sorting problem. In general, an instance of a problem
-consists of the input (satisfying whatever constraints are imposed in the problem
-statement) needed to compute a solution to the problem
-Because many programs use it as an intermediate step, sorting is a fundamental
-operation in computer science. As a result, we have a large number of good sorting
-algorithms at our disposal. Which algorithm is best for a given application depends
-on—among other factors—the number of items to be sorted, the extent to which
-the items are already somewhat sorted, possible restrictions on the item values,
-the architecture of the computer, and the kind of storage devices to be used: main
-memory, disks, or even tapes.
-An algorithm is said to be correct if, for every input instance, it halts with the
-correct output. We say that a correct algorithm solves the given computational
-problem. An incorrect algorithm might not halt at all on some input instances, or it
-might halt with an incorrect answer. Contrary to what you might expect, incorrect
-algorithms can sometimes be useful, if we can control their error rate. We shall see
-an example of an algorithm with a controllable error rate in Chapter 31 when we
-study algorithms for finding large prime numbers. Ordinarily, however, we shall
-be concerned only with correct algorithms.
-An algorithm can be specified in English, as a computer program, or even as
-a hardware design. The only requirement is that the specification must provide a
-precise description of the computational procedure to be followed.</contents>
-  </article>
-  <article>
-    <author>Thomas Cormen</author>
-    <title>Stacks and queues</title>
-    <year>2013</year>
-    <month>12</month>
-    <day>1</day>
-    <image>C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\bin\Debug\..\..\Images\IntrAlgPic.jpg</image>
-    <category>Introduction to Algorithms 3rd Edition</category>
-    <description>Elementary Data Structures</description>
-    <contents>Stacks and queues are dynamic sets in which the element removed from the set
-by the DELETE operation is prespecified. In a stack, the element deleted from
-the set is the one most recently inserted: the stack implements a last-in, first-out,
-or LIFO, policy. Similarly, in a queue, the element deleted is always the one that
-has been in the set for the longest time: the queue implements a first-in, first-out,
-or FIFO, policy. There are several efficient ways to implement stacks and queues
-on a computer. In this section we show how to use a simple array to implement
-each.
-Stacks
-The INSERT operation on a stack is often called PUSH, and the DELETE operation,
-which does not take an element argument, is often called POP. These names
-are allusions to physical stacks, such as the spring-loaded stacks of plates used
-in cafeterias. The order in which plates are popped from the stack is the reverse
-of the order in which they were pushed onto the stack, since only the top plate is
-accessible.</contents>
-  </article>
-  <article>
-    <author>Thomas Cormen</author>
-    <title>Linked lists</title>
-    <year>2013</year>
-    <month>12</month>
-    <day>5</day>
-    <image>C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\bin\Debug\..\..\Images\IntrAlgPic.jpg</image>
-    <category>Introduction to Algorithms 3rd Edition</category>
-    <description>Elementary Data Structures</description>
-    <contents>A linked list is a data structure in which the objects are arranged in a linear order.
-Unlike an array, however, in which the linear order is determined by the array
-indices, the order in a linked list is determined by a pointer in each object. Linked
-lists provide a simple, flexible representation for dynamic sets, supporting (though
-not necessarily efficiently) all the operations listed on page 230.</contents>
-  </article>
-  <article>
-    <author>Преслав Наков</author>
-    <title>Изкуствен интелект</title>
-    <year>2013</year>
-    <month>10</month>
-    <day>20</day>
-    <image>C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\bin\Debug\..\..\Images\ProgrAlgPic.jpg</image>
-    <category>Програмиране+=Алгоритми;</category>
-    <description>Компютърна информатика, алгоритми и програмиране</description>
-    <contents>Изкуственият интелект е добре известна материя, но спорове за това какво обхваща тя и какво точно представлява не липсват и днес. Въпросът в каква степен “интелектът” е свързан с компютърния потенциал е основен и в момента доминират главно две направления, които могат да бъдат обобщени накратко така:
- Силно направление: Задачата на изкуствения интелект е да изследва, разбира и моделира процеса на разумно мислене.
- Слабо направление: Задачата на изкуствения интелект е да моделира системи, в които определени действия могат да бъдат изпълнявани със същата успеваемост, както ако се изпълняват от човека.
-Границата между двете направления е условна и теоретически всяка разглеждана задача и всеки получен резултат може да се интерпретира от двете гледни точки: силна (доколко точно начинът на работа на системата моделира мисленето и действията на човека върху същата задача) и слабо (доколко успешна е машината). Същественото различие е, че силното направление изисква машината да работи и мисли така, както се предполага, че го прави човекът, докато слабото не се интересува от начина, а от резултата. В частност при слабото направление е напълно допустимо и дори силно желателно машината да се справя по-добре от човека, ако това е възможно, докато силното направление не толерира това: ако човекът често прави определен вид логическа грешка в разсъжденията си, машината също трябва да я прави.
-Силното направление се занимава главно с проблеми като разбиране и интерпретиране на естествените езици, както и философски въпроси като: “Какво да разбираме под интелигентна машина?” В допълнение, съществува връзка с логическото мислене, когнитивната наука, психо-логията, лингвистика и др.
-При слабото направление засега е постигнат доста по-сериозен напредък. Един конкретен успешен пример в това отношение са експертните системи. Най-общо, те разглеждат въпроса за разпространение на знания и опит на специалисти в определена тясно специализирана област. Съществуват редица успешни реализации на експертни системи за търсене на (ценни) суровинни находища, медицински системи за диагностика на определени заболявания, системи за помощ при интерпретиране и прилагане на закона и други.
-Като цяло идеите и на двата “противоположни лагера” заемат централно място в изследва-нията на съвременната компютърна информатика и пред тях непрекъснато се откриват нови въз-можности за разширение и бъдещо развитие.
-Следващата тема е тясно свързана с някои вече</contents>
-  </article>
-  <article>
-    <author>Преслав Наков</author>
-    <title>Определяне на сложност на алгоритъм</title>
-    <year>2013</year>
-    <month>10</month>
-    <day>21</day>
-    <image>C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\bin\Debug\..\..\Images\ProgrAlgPic.jpg</image>
-    <category>Програмиране+=Алгоритми;</category>
-    <description>Въведение в алгоритмите</description>
-    <contents>Ще разгледаме някои основни свойства, с помощта на които ще можем да определяме сложност на алгоритъм по дадена негова реализация на Си. Ще използваме T(код) за означаване сложността както на отделна операция, така и на програмен фрагмент. Понякога, когато кодът се подразбира, ще използваме означението T(n), за да покажем изрично, че сложността е функция на променливата n. Ще работим изключително с нотацията O(...). Оставяме на читателя да съобрази къде О(...) може да се замени с по-точната оценка (...).
-- Елементарна операция
-Сложността на елементарна операция е константа, т.е. O(1).
-Не е лесно да се дефинира какво е елементарна операция. При различни обстоятелства ще си позволяваме да променяме дефиницията. По принцип елементарна операция е такава, която се изпълнява за константно време, независещо от размера на обработваните данни. Елементарни операции в общия случай са например присвояването, събирането, умножението и др. Когато обаче работим със стоцифрени числа, едва ли е добре да приемем умножението за елементарна операция. Не е добре да приемаме за елементарни операции тригонометричните функции (синус, косинус и др.), експонентата, логаритъмът и други библиотечни функции в Си, които се пресмятат с редове. Обръщението към такава функция предизвиква цикъл за пресмятане на търсената стойност. От друга страна тези редове се пресмятат до достигането на определена точност, като броят на итерациите за пресмятане на търсената стойност може да се разглеждат като независещи от n. Дали и какво влияние оказва това на оценката на сложността на алгоритъма зависи от случая и следва да се разглежда конкретно.</contents>
   </article>
   <article>
     <author>Светлин Наков</author>
@@ -531,5 +499,37 @@ else
 return n * Factorial(n - 1);
 }
 }</contents>
+  </article>
+  <article>
+    <author>Преслав Наков</author>
+    <title>Изкуствен интелект</title>
+    <year>2013</year>
+    <month>10</month>
+    <day>20</day>
+    <image>C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\bin\Debug\..\..\Images\ProgrAlgPic.jpg</image>
+    <category>Програмиране+=Алгоритми;</category>
+    <description>Компютърна информатика, алгоритми и програмиране</description>
+    <contents>Изкуственият интелект е добре известна материя, но спорове за това какво обхваща тя и какво точно представлява не липсват и днес. Въпросът в каква степен “интелектът” е свързан с компютърния потенциал е основен и в момента доминират главно две направления, които могат да бъдат обобщени накратко така:
+ Силно направление: Задачата на изкуствения интелект е да изследва, разбира и моделира процеса на разумно мислене.
+ Слабо направление: Задачата на изкуствения интелект е да моделира системи, в които определени действия могат да бъдат изпълнявани със същата успеваемост, както ако се изпълняват от човека.
+Границата между двете направления е условна и теоретически всяка разглеждана задача и всеки получен резултат може да се интерпретира от двете гледни точки: силна (доколко точно начинът на работа на системата моделира мисленето и действията на човека върху същата задача) и слабо (доколко успешна е машината). Същественото различие е, че силното направление изисква машината да работи и мисли така, както се предполага, че го прави човекът, докато слабото не се интересува от начина, а от резултата. В частност при слабото направление е напълно допустимо и дори силно желателно машината да се справя по-добре от човека, ако това е възможно, докато силното направление не толерира това: ако човекът често прави определен вид логическа грешка в разсъжденията си, машината също трябва да я прави.
+Силното направление се занимава главно с проблеми като разбиране и интерпретиране на естествените езици, както и философски въпроси като: “Какво да разбираме под интелигентна машина?” В допълнение, съществува връзка с логическото мислене, когнитивната наука, психо-логията, лингвистика и др.
+При слабото направление засега е постигнат доста по-сериозен напредък. Един конкретен успешен пример в това отношение са експертните системи. Най-общо, те разглеждат въпроса за разпространение на знания и опит на специалисти в определена тясно специализирана област. Съществуват редица успешни реализации на експертни системи за търсене на (ценни) суровинни находища, медицински системи за диагностика на определени заболявания, системи за помощ при интерпретиране и прилагане на закона и други.
+Като цяло идеите и на двата “противоположни лагера” заемат централно място в изследва-нията на съвременната компютърна информатика и пред тях непрекъснато се откриват нови въз-можности за разширение и бъдещо развитие.
+Следващата тема е тясно свързана с някои вече</contents>
+  </article>
+  <article>
+    <author>Преслав Наков</author>
+    <title>Определяне на сложност на алгоритъм</title>
+    <year>2013</year>
+    <month>10</month>
+    <day>21</day>
+    <image>C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\bin\Debug\..\..\Images\ProgrAlgPic.jpg</image>
+    <category>Програмиране+=Алгоритми;</category>
+    <description>Въведение в алгоритмите</description>
+    <contents>Ще разгледаме някои основни свойства, с помощта на които ще можем да определяме сложност на алгоритъм по дадена негова реализация на Си. Ще използваме T(код) за означаване сложността както на отделна операция, така и на програмен фрагмент. Понякога, когато кодът се подразбира, ще използваме означението T(n), за да покажем изрично, че сложността е функция на променливата n. Ще работим изключително с нотацията O(...). Оставяме на читателя да съобрази къде О(...) може да се замени с по-точната оценка (...).
+- Елементарна операция
+Сложността на елементарна операция е константа, т.е. O(1).
+Не е лесно да се дефинира какво е елементарна операция. При различни обстоятелства ще си позволяваме да променяме дефиницията. По принцип елементарна операция е такава, която се изпълнява за константно време, независещо от размера на обработваните данни. Елементарни операции в общия случай са например присвояването, събирането, умножението и др. Когато обаче работим със стоцифрени числа, едва ли е добре да приемем умножението за елементарна операция. Не е добре да приемаме за елементарни операции тригонометричните функции (синус, косинус и др.), експонентата, логаритъмът и други библиотечни функции в Си, които се пресмятат с редове. Обръщението към такава функция предизвиква цикъл за пресмятане на търсената стойност. От друга страна тези редове се пресмятат до достигането на определена точност, като броят на итерациите за пресмятане на търсената стойност може да се разглеждат като независещи от n. Дали и какво влияние оказва това на оценката на сложността на алгоритъма зависи от случая и следва да се разглежда конкретно.</contents>
   </article>
 </articles>
