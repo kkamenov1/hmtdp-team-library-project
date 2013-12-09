@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="HMTDPTeamLibraryProject.ViewModels.ArticleStoreViewModel">
+    <Position X="3" Y="6.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AQACDAEJAEAAQQQAAIAABACAAAAAAAAAAAEAAJAEEAA=</HashCode>
+      <FileName>ViewModels\ArticleStoreViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HMTDPTeamLibraryProject.ViewModels.ArticleViewModel">
+    <Position X="1.25" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AACkAAAAJAAgAEAAgAAAAIAAAAQAAAAEAAAAAABACAA=</HashCode>
+      <FileName>ViewModels\ArticleViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HMTDPTeamLibraryProject.ViewModels.AuthorSampleStoreVM">
+    <Position X="1.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAIAAAACAAABAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>ViewModels\AuthorSampleStoreVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HMTDPTeamLibraryProject.ViewModels.AuthorSampleVM">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAQAAAAEAAAAAAAAAACAAAA=</HashCode>
+      <FileName>ViewModels\AuthorSampleVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HMTDPTeamLibraryProject.ViewModels.AuthorViewModel">
+    <Position X="1.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\AuthorViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HMTDPTeamLibraryProject.ViewModels.BookSampleStoreVM">
+    <Position X="4.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAgAAAAAAAAAIAAAACAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\BookSampleStoreVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HMTDPTeamLibraryProject.ViewModels.BookSampleVM">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\BookSampleVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HMTDPTeamLibraryProject.ViewModels.BookViewModel">
+    <Position X="4.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\BookViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HMTDPTeamLibraryProject.ViewModels.ViewModelBase">
+    <Position X="3" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\ViewModelBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HMTDPTeamLibraryProject.ViewModels.DataPersister">
+    <Position X="9.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAEAAAAAACAABAAAAAEAAAAIABAAA=</HashCode>
+      <FileName>ViewModels\DataPersister.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HMTDPTeamLibraryProject.Commands.RelayCommand">
+    <Position X="11" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEACAAQAAECAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\RelayCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HMTDPTeamLibraryProject.Sort">
+    <Position X="9.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAiAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Search and Sort\Sort.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HMTDPTeamLibraryProject.Search_and_Sort.Search">
+    <Position X="11" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Search and Sort\Search.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HMTDPTeamLibraryProject.AddNewArticlePage">
+    <Position X="5.25" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAIAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>MainPages\AddNewArticlePage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HMTDPTeamLibraryProject.LibraryListPage">
+    <Position X="0.75" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEBAAAAAAgAAAABAAIAAAAAAAQAAAAAAAAQAAAAAAE=</HashCode>
+      <FileName>MainPages\LibraryListPage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HMTDPTeamLibraryProject.LibraryListPageAuthor">
+    <Position X="0.75" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEBAAAAAAgAAAABABIQAAAAAAQAACABAAAQAAAAAAA=</HashCode>
+      <FileName>MainPages\LibraryListPageAuthor.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HMTDPTeamLibraryProject.LibraryListPageBook">
+    <Position X="4.75" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEBAAAAAAgAAAABABIQAAAAAAQAACABAAAQAAAAAAA=</HashCode>
+      <FileName>MainPages\LibraryListPageBook.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HMTDPTeamLibraryProject.ReadArticlePage">
+    <Position X="7" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAABAAAAAABIAAAAAAQAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>MainPages\ReadArticlePage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HMTDPTeamLibraryProject.NewInfoPage">
+    <Position X="4.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MainPages\NewInfoPage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HMTDPTeamLibraryProject.SampleBookPage">
+    <Position X="6.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAACgAAAABAAAQAAAAAAAAACABAAAAAAAAAAA=</HashCode>
+      <FileName>MainPages\SampleBookPage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HMTDPTeamLibraryProject.SimpleAuthorPage">
+    <Position X="2.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAEgAAAABAAAQAAAAAAAAACABAAAAAAAAAAA=</HashCode>
+      <FileName>MainPages\SimpleAuthorPage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HMTDPTeamLibraryProject.StartPage">
+    <Position X="6.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAABAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>MainPages\StartPage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HMTDPTeamLibraryProject.SearchPage">
+    <Position X="3.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MainPages\SearchPage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Delegate Name="HMTDPTeamLibraryProject.Commands.ExecuteCommandDelegate" Collapsed="true">
+    <Position X="11" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\ExecuteCommandDelegate.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="HMTDPTeamLibraryProject.Commands.CanExecuteCommandDelegate" Collapsed="true">
+    <Position X="9.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\ExecuteCommandDelegate.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
