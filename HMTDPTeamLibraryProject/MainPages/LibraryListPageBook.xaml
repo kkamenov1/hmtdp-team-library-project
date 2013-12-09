@@ -1,0 +1,160 @@
+﻿<Page x:Class="HMTDPTeamLibraryProject.LibraryListPageBook"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      xmlns:viewModels="clr-namespace:HMTDPTeamLibraryProject.ViewModels"
+      d:DesignHeight="500" d:DesignWidth="800"
+	Title="LibraryListPageBook">
+ <Page.DataContext>
+        <viewModels:BookViewModel/>
+    </Page.DataContext>
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush Opacity="0.1">
+                <GradientStop Color="HotPink"  Offset="0.5"/>
+                <GradientStop Color="RosyBrown"  Offset="0.6"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="45"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Orientation="Horizontal">
+            <Button Width="120"
+                Click="AddNewArticleClick"
+                    BorderBrush="AliceBlue"
+                BorderThickness="1"
+                    Foreground="DarkSlateGray"
+                    FontSize="14"
+                    FontStyle="Oblique"
+                    FontWeight="SemiBold"
+                    HorizontalContentAlignment="Center"
+                    VerticalContentAlignment="Center"
+                    Content="New Article" ToolTip="Write New Article" Margin="5,5,5,5">
+                <Button.Background>
+                    <LinearGradientBrush Opacity="0.01">
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+
+            <Button  Width="120"
+                Click="OpenArticleClick"
+                    BorderBrush="AliceBlue"
+                BorderThickness="1"
+                    Foreground="DarkSlateGray"
+                    FontSize="14"
+                    FontStyle="Oblique"
+                    FontWeight="SemiBold"
+                    HorizontalContentAlignment="Center"
+                    VerticalContentAlignment="Center"
+                    Content="Open Article" ToolTip="Open Selected Article" Margin="5,5,5,5">
+                <Button.Background>
+                    <LinearGradientBrush Opacity="0.01">
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+
+
+            <Button Grid.Column="0" Command="{Binding Remove}"  Width="120"
+                    BorderBrush="AliceBlue"
+                BorderThickness="1"
+                    Foreground="DarkSlateGray"
+                    FontSize="14"
+                    FontStyle="Oblique"
+                    FontWeight="SemiBold"
+                    HorizontalContentAlignment="Center"
+                    VerticalContentAlignment="Center"
+                    Content="Remove Article" ToolTip="Remove Selected Article" Margin="5,5,5,5">
+                <Button.Background>
+                    <LinearGradientBrush Opacity="0.01">
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+
+            <Button Grid.Column="0" Click="SearchArticleClick"  Width="120"
+                    BorderBrush="AliceBlue"
+                BorderThickness="1"
+                    Foreground="DarkSlateGray"
+                    FontSize="14"
+                    FontStyle="Oblique"
+                    FontWeight="SemiBold"
+                    HorizontalContentAlignment="Center"
+                    VerticalContentAlignment="Center"
+                    Content="Search Article" ToolTip="Search Article" Margin="5,5,5,5">
+                <Button.Background>
+                    <LinearGradientBrush Opacity="0.01">
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+
+            <Button Grid.Column="0" Width="120" Click="OpenAllAuthorsclick"
+                    BorderBrush="AliceBlue"
+                    BorderThickness="1"
+                    Foreground="DarkSlateGray"
+                    FontSize="14"
+                    FontStyle="Oblique"
+                    FontWeight="SemiBold"
+                    HorizontalContentAlignment="Center"
+                    VerticalContentAlignment="Center"
+                    Content="All Authors" ToolTip="Open Authors Page" Margin="5,5,5,5">
+                <Button.Background>
+                    <LinearGradientBrush Opacity="0.01">
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+
+            <Button Grid.Column="0" Width="120"
+                    BorderBrush="AliceBlue"
+                    BorderThickness="1"
+                    Foreground="DarkSlateGray"
+                    FontSize="14"
+                    FontStyle="Oblique"
+                    FontWeight="SemiBold"
+                    HorizontalContentAlignment="Center"
+                    VerticalContentAlignment="Center"
+                    Content="All Books" ToolTip="Open Books Page" Margin="5,5,5,5" Click="OpenAllBooks">
+                <Button.Background>
+                    <LinearGradientBrush Opacity="0.01">
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+
+        </StackPanel>
+        <ListView SelectionChanged="ListView_SelectionChanged" Name="mainOperateList" Grid.Row="1" Background="Transparent" ItemsSource="{Binding Articles}" FontSize="13" GridViewColumnHeader.Click="results_Click" ItemContainerStyle="{DynamicResource alternatingListViewStyle}">
+            <ListView.View>
+                <GridView>
+                    <GridView.Columns>
+                        <GridViewColumn Width="130" Header="Author" DisplayMemberBinding="{Binding Author}"/>
+                        <GridViewColumn Width="130" Header="Title" DisplayMemberBinding="{Binding Title}"/>
+                        <GridViewColumn Width="50" Header="Year" DisplayMemberBinding="{Binding Year}"/>
+                        <GridViewColumn Width="50" Header="Month" DisplayMemberBinding="{Binding Month}"/>
+                        <GridViewColumn Width="50" Header="Day" DisplayMemberBinding="{Binding Day}"/>
+                        <GridViewColumn Width="70" Header="Image">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Image Source="{Binding ImagePath}" Width="60" Height="40"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Width="120" Header="Category" DisplayMemberBinding="{Binding Category}"/>
+                        <GridViewColumn Width="155" Header="Description" DisplayMemberBinding="{Binding Description}"/>
+                        <!--<GridViewColumn Width="105" Header="Contents" DisplayMemberBinding="{Binding SubContent}"/>-->
+                    </GridView.Columns>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="300"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Orientation="Horizontal" Grid.Column="1" DataContext="{Binding SelectedStore}" >
+                <Label>Article name:</Label>
+                <TextBox Text="{Binding Title}" Background="Transparent"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>
