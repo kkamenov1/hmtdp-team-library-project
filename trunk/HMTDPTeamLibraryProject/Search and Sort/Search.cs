@@ -14,24 +14,24 @@ namespace HMTDPTeamLibraryProject.Search_and_Sort
     {
         private IEnumerable<ArticleViewModel> articles = DataPersister.GetArticle(MainWindow.mainFilePath);
 
-        public IEnumerable<ArticleViewModel> SearchByWordAndProp(string searchedWord, string property)
+        public List<ArticleViewModel> SearchByWordAndProp(string searchedWord, ArticleProp property)
         {
-            IList<ArticleViewModel> result = new IList<ArticleViewModel>();
+            List<ArticleViewModel> result = new List<ArticleViewModel>();
             foreach (var art in articles)
             {
-                if (property == ArticleProp.Author && art.Author.Contains(searchedWord))
+                if (property == ArticleProp.Author && art.Author.Contains(searchedWord, StringComparison.OrdinalIgnoreCase))
                 {
                     result.Add(art);
                 }
-                else if (property == ArticleProp.Category && art.Category.Contains(searchedWord))
+                else if (property == ArticleProp.Category && art.Category.Contains(searchedWord, StringComparison.OrdinalIgnoreCase))
                 {
                     result.Add(art);
                 }
-                else if (property == ArticleProp.Contents && art.Contents.Contains(searchedWord))
+                else if (property == ArticleProp.Contents && art.Contents.Contains(searchedWord, StringComparison.OrdinalIgnoreCase))
                 {
                     result.Add(art);
                 }
-                else if (property == ArticleProp.Title && art.Title.Contains(searchedWord))
+                else if (property == ArticleProp.Title && art.Title.Contains(searchedWord, StringComparison.OrdinalIgnoreCase))
                 {
                     result.Add(art);
                 }
@@ -46,7 +46,7 @@ namespace HMTDPTeamLibraryProject.Search_and_Sort
                 }
             }
 
-            return (IEnumerable<ArticleViewModel>)result;
+            return result;
         }
     }
 }

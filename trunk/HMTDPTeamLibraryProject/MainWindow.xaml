@@ -151,7 +151,9 @@
                             </Button>
 
                             <TextBox 
-                                
+                                Name="textGlobalSearch"
+                                GotFocus="TextBoxGotFocus"
+                                ToolTipService.ToolTip="Search in the application database"
                                 Height="24" 
                                 Margin="44,7,1,0" 
                                 VerticalAlignment="Top" 
@@ -160,10 +162,10 @@
                                 RenderTransformOrigin="2.311,0.552" 
                                 Grid.ColumnSpan="5" 
                                 Grid.Column="8"/>
-                            <WindowsFormsHost>
+                            <!--<WindowsFormsHost>
                                 <WinForms:DataGridView x:Name="Search">
                                 </WinForms:DataGridView>
-                            </WindowsFormsHost>
+                            </WindowsFormsHost>-->
                         </Grid>
 
                         <Border 

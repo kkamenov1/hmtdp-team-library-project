@@ -15,8 +15,6 @@ namespace HMTDPTeamLibraryProject
 
         public IEnumerable<ArticleViewModel> SortByAttribute(string attributName)
         {
-            //foreach (var prop in typeof(ArticleViewModel).GetProperties())
-            //{
             PropertyInfo givenPropertyName = typeof(ArticleViewModel).GetProperty(attributName);
             if (givenPropertyName == typeof(ArticleViewModel).GetProperty("Author"))
             {
@@ -42,7 +40,6 @@ namespace HMTDPTeamLibraryProject
             {
                 //TODO: Maybe we should throw an exception here?
             }
-            //}
 
             JustArrange(articles);
 

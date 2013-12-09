@@ -40,9 +40,20 @@ namespace HMTDPTeamLibraryProject
             this.NavigationService.Navigate(new Uri("MainPages/SearchPage.xaml", UriKind.Relative));
         }
 
-        private void OpenBooksCatalogue(object sender, RoutedEventArgs e)
+        //private void OpenBooksCatalogue(object sender, RoutedEventArgs e)
+        //{
+        //    this.NavigationService.Navigate(new Uri("MainPages/InfoPage.xaml", UriKind.Relative));
+        //}
+
+        private void OpenBooksButtonClick(object sender, RoutedEventArgs e)
         {
-            this.NavigationService.Navigate(new Uri("MainPages/InfoPage.xaml", UriKind.Relative));
+            this.NavigationService.Navigate(new Uri("MainPages/SampleBookPage.xaml", UriKind.Relative));
+        }
+
+        private void OpenAuthorsPageClick(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Uri("MainPages/SimpleAuthorPage.xaml", UriKind.Relative));
+            //this.NavigationService.Navigate(new Uri("MainPages/LibraryListPageAuthor.xaml", UriKind.Relative));
         }
     }
 }

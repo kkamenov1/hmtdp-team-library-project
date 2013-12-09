@@ -26,71 +26,74 @@
 
         <StackPanel Grid.Row="0" Orientation="Horizontal">
 
-            <!--New Article-->
-            <Button Width="110"
-                    Click="AddNewArticleClick"
+            <Button Width="120"
+                Click="AddNewArticleClick"
                     BorderBrush="AliceBlue"
-                    BorderThickness="1"
+                BorderThickness="1"
                     Foreground="DarkSlateGray"
                     FontSize="14"
                     FontStyle="Oblique"
                     FontWeight="SemiBold"
                     HorizontalContentAlignment="Center"
                     VerticalContentAlignment="Center"
-                    Content="New Article" 
-                    ToolTip="Write New Article" 
-                    Margin="5,5,5,5">
+                    Content="New Article" ToolTip="Write New Article" Margin="5,5,5,5">
                 <Button.Background>
                     <LinearGradientBrush Opacity="0.01">
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
 
-            <!--Open Article-->
-            <Button Width="110"
-                    Click="OpenArticleClick"
+            <Button  Width="120"
+                Click="OpenArticleClick"
                     BorderBrush="AliceBlue"
-                    BorderThickness="1"
+                BorderThickness="1"
                     Foreground="DarkSlateGray"
                     FontSize="14"
                     FontStyle="Oblique"
                     FontWeight="SemiBold"
                     HorizontalContentAlignment="Center"
                     VerticalContentAlignment="Center"
-                    Content="Open Article" 
-                    ToolTip="Open Selected Article" 
-                    Margin="5,5,5,5">
+                    Content="Open Article" ToolTip="Open Selected Article" Margin="5,5,5,5">
                 <Button.Background>
                     <LinearGradientBrush Opacity="0.01">
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
 
-            <!--Remove Article-->
-            <Button Grid.Column="0" 
-                    Command="{Binding Remove}"  
-                    Width="110"
+
+            <Button Grid.Column="0" Command="{Binding Remove}"  Width="120"
                     BorderBrush="AliceBlue"
-                    BorderThickness="1"
+                BorderThickness="1"
                     Foreground="DarkSlateGray"
                     FontSize="14"
                     FontStyle="Oblique"
                     FontWeight="SemiBold"
                     HorizontalContentAlignment="Center"
                     VerticalContentAlignment="Center"
-                    Content="Remove Article" 
-                    ToolTip="Remove Selected Article" 
-                    Margin="5,5,5,5">
+                    Content="Remove Article" ToolTip="Remove Selected Article" Margin="5,5,5,5">
                 <Button.Background>
                     <LinearGradientBrush Opacity="0.01">
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
 
-            <!--Search Article-->
-            <Button Grid.Column="0" 
-                    Click="SearchArticleClick"  
-                    Width="110"
+            <Button Grid.Column="0" Click="SearchArticleClick"  Width="120"
+                    BorderBrush="AliceBlue"
+                BorderThickness="1"
+                    Foreground="DarkSlateGray"
+                    FontSize="14"
+                    FontStyle="Oblique"
+                    FontWeight="SemiBold"
+                    HorizontalContentAlignment="Center"
+                    VerticalContentAlignment="Center"
+                    Content="Search Article" ToolTip="Search Article" Margin="5,5,5,5">
+                <Button.Background>
+                    <LinearGradientBrush Opacity="0.01">
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+
+            <Button Grid.Column="0" Width="120" Click="OpenAllAuthorsclick"
                     BorderBrush="AliceBlue"
                     BorderThickness="1"
                     Foreground="DarkSlateGray"
@@ -99,9 +102,23 @@
                     FontWeight="SemiBold"
                     HorizontalContentAlignment="Center"
                     VerticalContentAlignment="Center"
-                    Content="Search Article" 
-                    ToolTip="Remove Selected Article" 
-                    Margin="5,5,5,5">
+                    Content="All Authors" ToolTip="Open Authors Page" Margin="5,5,5,5">
+                <Button.Background>
+                    <LinearGradientBrush Opacity="0.01">
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+
+            <Button Grid.Column="0" Width="120"
+                    BorderBrush="AliceBlue"
+                    BorderThickness="1"
+                    Foreground="DarkSlateGray"
+                    FontSize="14"
+                    FontStyle="Oblique"
+                    FontWeight="SemiBold"
+                    HorizontalContentAlignment="Center"
+                    VerticalContentAlignment="Center"
+                    Content="All Books" ToolTip="Open Books Page" Margin="5,5,5,5" Click="OpenAllBooks">
                 <Button.Background>
                     <LinearGradientBrush Opacity="0.01">
                     </LinearGradientBrush>
@@ -120,21 +137,21 @@
             <ListView.View>
                 <GridView>
                     <GridView.Columns>
-                        <GridViewColumn Width="100" Header="Author" DisplayMemberBinding="{Binding Author}"/>
-                        <GridViewColumn Width="100" Header="Title" DisplayMemberBinding="{Binding Title}"/>
+                        <GridViewColumn Width="130" Header="Author" DisplayMemberBinding="{Binding Author}"/>
+                        <GridViewColumn Width="130" Header="Title" DisplayMemberBinding="{Binding Title}"/>
                         <GridViewColumn Width="50" Header="Year" DisplayMemberBinding="{Binding Year}"/>
                         <GridViewColumn Width="50" Header="Month" DisplayMemberBinding="{Binding Month}"/>
                         <GridViewColumn Width="50" Header="Day" DisplayMemberBinding="{Binding Day}"/>
                         <GridViewColumn Width="70" Header="Image">
                             <GridViewColumn.CellTemplate>
                                 <DataTemplate>
-                                    <Image Source="{Binding ImagePath}" Width="50"/>
+                                    <Image Source="{Binding ImagePath}" Width="60" Height="40"/>
                                 </DataTemplate>
                             </GridViewColumn.CellTemplate>
                         </GridViewColumn>
-                        <GridViewColumn Width="100" Header="Category" DisplayMemberBinding="{Binding Category}"/>
-                        <GridViewColumn Width="135" Header="Description" DisplayMemberBinding="{Binding Description}"/>
-                        <!--<GridViewColumn Width="105" Header="Contents" DisplayMemberBinding="{Binding Contents}"/>-->
+                        <GridViewColumn Width="120" Header="Category" DisplayMemberBinding="{Binding Category}"/>
+                        <GridViewColumn Width="155" Header="Description" DisplayMemberBinding="{Binding Description}"/>
+                        <!--<GridViewColumn Width="105" Header="Contents" DisplayMemberBinding="{Binding SubContent}"/>-->
                     </GridView.Columns>
                 </GridView>
             </ListView.View>

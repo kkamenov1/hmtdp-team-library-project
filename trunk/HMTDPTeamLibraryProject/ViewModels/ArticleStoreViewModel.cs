@@ -81,7 +81,7 @@ namespace HMTDPTeamLibraryProject.ViewModels
             }
         }
 
-        public void ChangeSelection(object store)
+        public virtual void ChangeSelection(object store)
         {
             this.SelectedStore = store as ArticleViewModel;
         }
@@ -112,7 +112,7 @@ namespace HMTDPTeamLibraryProject.ViewModels
             }
         }
 
-        public IEnumerable<ArticleViewModel> Articles
+        public virtual IEnumerable<ArticleViewModel> Articles
         {
             get
             {
