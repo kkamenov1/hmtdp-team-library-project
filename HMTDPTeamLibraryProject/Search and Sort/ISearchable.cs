@@ -7,8 +7,8 @@ using HMTDPTeamLibraryProject.ViewModels;
 
 namespace HMTDPTeamLibraryProject.Search_and_Sort
 {
-    public class ISearchable
+    public interface ISearchable
     {
-        IEnumerable<ArticleViewModel> SearchByWordAndProp(string searchedWord, string property);
+        List<ArticleViewModel> SearchByWordAndProp(string searchedWord, ArticleProp property);
     }
 }

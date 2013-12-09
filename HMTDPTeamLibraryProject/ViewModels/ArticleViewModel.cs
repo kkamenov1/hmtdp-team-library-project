@@ -12,11 +12,44 @@ namespace HMTDPTeamLibraryProject.ViewModels
 
         public string Author { get; set; }
 
-        public int Year { get; set; }
+        private int year;
+        public int Year 
+        {
+            get
+            {
+                return this.year;
+            }
+            set
+            {
+                this.year = value;
+            }
+        }
 
-        public int Month { get; set; }
+        private int month;
+        public int Month
+        {
+            get
+            {
+                return this.month;
+            }
+            set
+            {
+                this.month = value;
+            }
+        }
 
-        public int Day { get; set; }
+        private int day;
+        public int Day
+        {
+            get
+            {
+                return this.day;
+            }
+            set
+            {
+                this.day = value;
+            }
+        }
 
         private string imagePath;
         public string ImagePath
@@ -27,10 +60,20 @@ namespace HMTDPTeamLibraryProject.ViewModels
             }
             set
             {
-                if (imagePath == null)
-                {
-                    imagePath = "..\\..\\Images\\NinjaPic.png";   // TO DO - Change icon
-                }
+                this.imagePath = value;
+            }
+        }
+
+        private string subcontent;
+        public string SubContent
+        {
+            get
+            {
+                return this.subcontent;
+            }
+            set
+            {
+                this.subcontent = value;
             }
         }
 
@@ -42,7 +85,7 @@ namespace HMTDPTeamLibraryProject.ViewModels
 
         public ArticleViewModel()
         {
-            this.ImagePath = imagePath;
+            //this.ImagePath = imagePath;
         }
     }
 }

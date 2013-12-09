@@ -27,7 +27,6 @@ namespace HMTDPTeamLibraryProject
             InitializeComponent();
            
             mainFrame.Navigate(new StartPage());
-            mainFrame.Navigate(new Uri("MainPages/LibraryListPage.xaml", UriKind.Relative));
         }
 
         
@@ -89,6 +88,11 @@ namespace HMTDPTeamLibraryProject
         private void OnCheckButtonClick(object sender, RoutedEventArgs e)
         {
           
-        }    
+        }
+
+        private void TextBoxGotFocus(object sender, RoutedEventArgs e)
+        {
+            mainFrame.Navigate(new Uri("MainPages/SearchPage.xaml", UriKind.Relative));
+        }   
     }
 }

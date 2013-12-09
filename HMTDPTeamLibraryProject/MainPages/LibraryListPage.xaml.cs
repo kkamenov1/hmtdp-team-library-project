@@ -82,5 +82,15 @@ namespace HMTDPTeamLibraryProject
         {
             this.NavigationService.Navigate(new Uri("MainPages/SearchPage.xaml", UriKind.Relative));
         }
+
+        private void OpenAllAuthorsclick(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Uri("MainPages/SimpleAuthorPage.xaml", UriKind.Relative));
+        }
+
+        private void OpenAllBooks(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Uri("MainPages/SampleBookPage.xaml", UriKind.Relative));
+        }
     }
 }

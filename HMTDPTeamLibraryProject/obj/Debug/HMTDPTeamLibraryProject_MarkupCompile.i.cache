@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Ico\Documents\Visual Studio 2012\Projects\OOP\10. Team Work\HMTDPTeamLibraryProject\obj\Debug\
+C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\obj\Debug\
 HMTDPTeamLibraryProject
 none
 false
 DEBUG;TRACE
-C:\Users\Ico\Documents\Visual Studio 2012\Projects\OOP\10. Team Work\HMTDPTeamLibraryProject\App.xaml
-6-1004656889
+C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\App.xaml
+10-1409922120
 
-26-1887118774
+371428417952
 17-1572536961
-MainPages\AddNewArticlePage.xaml;MainPages\LibraryListPage.xaml;MainWindow.xaml;MainPages\ReadArticlePage.xaml;MainPages\StartPage.xaml;MainPages\SearchPage.xaml;
+MainPages\AddNewArticlePage.xaml;MainPages\LibraryListPage.xaml;MainPages\LibraryListPageAuthor.xaml;MainPages\LibraryListPageBook.xaml;MainPages\SampleBookPage.xaml;MainPages\SimpleAuthorPage.xaml;MainWindow.xaml;MainPages\ReadArticlePage.xaml;MainPages\StartPage.xaml;MainPages\SearchPage.xaml;
 
 False
 

@@ -58,7 +58,20 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="MainPages\LibraryListPageAuthor.xaml.cs">
+      <DependentUpon>LibraryListPageAuthor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPages\LibraryListPageBook.xaml.cs">
+      <DependentUpon>LibraryListPageBook.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPages\SampleBookPage.xaml.cs">
+      <DependentUpon>SampleBookPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPages\SimpleAuthorPage.xaml.cs">
+      <DependentUpon>SimpleAuthorPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Search and Sort\ArticleViewModelPropertyEnum.cs" />
+    <Compile Include="Search and Sort\Extensions.cs" />
     <Compile Include="Search and Sort\SearchCore.cs" />
     <Compile Include="Search and Sort\ISearchable.cs" />
     <Compile Include="Search and Sort\ISortable.cs" />
@@ -78,6 +91,12 @@
     </Compile>
     <Compile Include="ViewModels\ArticleStoreViewModel.cs" />
     <Compile Include="ViewModels\ArticleViewModel.cs" />
+    <Compile Include="ViewModels\AuthorSampleStoreVM.cs" />
+    <Compile Include="ViewModels\AuthorSampleVM.cs" />
+    <Compile Include="ViewModels\AuthorViewModel.cs" />
+    <Compile Include="ViewModels\BookSampleStoreVM.cs" />
+    <Compile Include="ViewModels\BookSampleVM.cs" />
+    <Compile Include="ViewModels\BookViewModel.cs" />
     <Compile Include="ViewModels\DataPersister.cs" />
     <Compile Include="ViewModels\ViewModelBase.cs" />
     <Page Include="MainPages\AddNewArticlePage.xaml">
@@ -87,6 +106,22 @@
     <Page Include="MainPages\LibraryListPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainPages\LibraryListPageAuthor.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MainPages\LibraryListPageBook.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MainPages\SampleBookPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MainPages\SimpleAuthorPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -184,6 +219,16 @@
     <Resource Include="Images\NewArticle.png" />
     <Resource Include="Images\Return.png" />
     <Resource Include="Images\Search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\AllAuthorsPic.png" />
+    <Resource Include="Images\AllBooksPic.png" />
+    <Resource Include="Images\Author.png" />
+    <Resource Include="Images\IntrAlgPic.jpg" />
+    <Resource Include="Images\NakovAlgPic.jpg" />
+    <Resource Include="Images\NGPic.png" />
+    <Resource Include="Images\ProgrAlgPic.jpg" />
+    <Resource Include="Images\TemplatePic.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
