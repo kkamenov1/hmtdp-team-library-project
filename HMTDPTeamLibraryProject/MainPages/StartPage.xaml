@@ -44,23 +44,7 @@
                 </LinearGradientBrush>
             </TextBox.Background>
         </TextBox>
-        <Button
-                               
-                                ToolTip="Articles"
-                                HorizontalAlignment="Left"
-                                Margin="711,12,0,0"
-                                VerticalAlignment="Top"
-                                Width="48" Height="48"
-                                BorderBrush="{x:Null}"
-                                Visibility="Visible"
-                                FontFamily="Segoe UI Symbol" 
-                                Content="&#xE1B5;" Grid.Row="1"
-                                >
-            <Button.Background>
-                <ImageBrush ImageSource="pack://application:,,,/Images/Info.png"/>
-            </Button.Background>
-        </Button>
-
+        
         <Grid Grid.Row="2">
             <Grid.RowDefinitions>
                 <RowDefinition Height="0.4*"/>
@@ -130,5 +114,6 @@
                 <Image Source="../Images/AllAuthorsPic.png" Stretch="Fill" MaxHeight="100" MaxWidth="160"/>
             </Button>
         </Grid>
+
     </Grid>
 </Page>

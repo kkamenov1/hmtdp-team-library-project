@@ -1,0 +1,59 @@
+﻿<Page x:Class="HMTDPTeamLibraryProject.NewInfoPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+       d:DesignHeight="500" d:DesignWidth="800"
+	Title="NewInfoPage">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush Opacity="0.22">
+                <GradientStop Color="GreenYellow"  Offset="0.5"/>
+                <GradientStop Color="LightGreen"  Offset="0.6"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+
+        <TextBox Grid.Row="1" Margin="120,0,120,0"
+                    Name="titleArticle"
+                    SpellCheck.IsEnabled="True" 
+                    AcceptsReturn="True" 
+                    AutoWordSelection="True" 
+                    BorderBrush="Transparent"
+                    Foreground="SteelBlue"
+                    IsReadOnly="True"
+                    FontSize="25"
+                    FontStyle="Normal"
+                    FontWeight="ExtraBold"
+                    HorizontalContentAlignment="Center"
+                    VerticalAlignment="Center"
+                    ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                    ScrollViewer.VerticalScrollBarVisibility="Auto"
+                 Text="Read Your Favorite Articles">
+            <TextBox.Background>
+                <LinearGradientBrush Opacity="0.11">
+                    <GradientStop Color="DarkSlateGray"  Offset="3"/>
+                    <GradientStop Color="Aquamarine" Offset="3"/>
+                </LinearGradientBrush>
+            </TextBox.Background>
+        </TextBox>
+        <Button Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center"  Name="MainButtonFour" Click="OpenMembersClick" Height="323" Width="729" FontSize="30"  BorderBrush="BlanchedAlmond" ToolTipService.ToolTip="Welcome in" BorderThickness="7" Margin="41,28,30,49">
+            <Button.Background>
+                <LinearGradientBrush Opacity="0.5">
+                    <GradientStop Color="GreenYellow"  Offset="5"/>
+                    <GradientStop Color="BlueViolet"  Offset="2"/>
+                    <GradientStop Color="Azure"/>
+                </LinearGradientBrush>
+            </Button.Background>
+            <Image Source="../Images/TeamMembers.png" Stretch="Fill" MaxWidth="670" MaxHeight="250"/>
+        </Button>
+
+
+    </Grid>
+</Page>

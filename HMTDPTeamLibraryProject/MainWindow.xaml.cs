@@ -25,8 +25,8 @@ namespace HMTDPTeamLibraryProject
         public MainWindow()
         {
             InitializeComponent();
-           
-            mainFrame.Navigate(new StartPage());
+
+            mainFrame.Navigate(new NewInfoPage());
         }
 
         
@@ -93,6 +93,11 @@ namespace HMTDPTeamLibraryProject
         private void TextBoxGotFocus(object sender, RoutedEventArgs e)
         {
             mainFrame.Navigate(new Uri("MainPages/SearchPage.xaml", UriKind.Relative));
+        }
+
+        private void ProjectInfoClick(object sender, RoutedEventArgs e)
+        {
+            mainFrame.Navigate(new Uri("MainPages/NewInfoPage.xaml", UriKind.Relative));
         }   
     }
 }

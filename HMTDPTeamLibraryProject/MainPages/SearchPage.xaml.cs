@@ -31,11 +31,10 @@ namespace HMTDPTeamLibraryProject
         private void SearchArticle(object sender, RoutedEventArgs e)
         {
             string xtext = searchtb.Text;
+            int index = combotb.SelectedIndex;
 
-            if (xtext != null && xtext.Trim() != String.Empty)
+            if (xtext != null && xtext.Trim() != String.Empty && index >= 0)
             {
-                int index = combotb.SelectedIndex;
-
                 ArticleProp currentType = (ArticleProp)index;
 
                 Search currentSearch = new Search();
@@ -48,9 +47,15 @@ namespace HMTDPTeamLibraryProject
                     mainOperateList.Items.Add(art);
                 }       
             }
-            else
+            else if (index >= 0)
             {
-                //msg box
+                string outputMessage = "Please enter text to search";
+                MessageBoxResult result = MessageBox.Show(outputMessage); 
+            }
+            else 
+            {
+                string outputMessage = "Please select searching property";
+                MessageBoxResult result = MessageBox.Show(outputMessage);
             }
         }
 
