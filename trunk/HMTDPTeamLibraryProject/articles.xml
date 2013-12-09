@@ -6,7 +6,7 @@
     <year>2013</year>
     <month>11</month>
     <day>1</day>
-    <image>C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\bin\Debug\..\..\Images\IntrAlgPic.jpg</image>
+    <image>..\..\Images\IntrAlgPic.jpg</image>
     <category>Introduction to Algorithms 3rd Edition</category>
     <description>The Role of Algorithms in Computing</description>
     <contents>Informally, an algorithm is any well-defined computational procedure that takes
@@ -54,7 +54,7 @@ precise description of the computational procedure to be followed.</contents>
     <year>2013</year>
     <month>12</month>
     <day>1</day>
-    <image>C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\bin\Debug\..\..\Images\IntrAlgPic.jpg</image>
+    <image>..\..\Images\IntrAlgPic.jpg</image>
     <category>Introduction to Algorithms 3rd Edition</category>
     <description>Elementary Data Structures</description>
     <contents>Stacks and queues are dynamic sets in which the element removed from the set
@@ -79,7 +79,7 @@ accessible.</contents>
     <year>2013</year>
     <month>12</month>
     <day>5</day>
-    <image>C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\bin\Debug\..\..\Images\IntrAlgPic.jpg</image>
+    <image>..\..\Images\IntrAlgPic.jpg</image>
     <category>Introduction to Algorithms 3rd Edition</category>
     <description>Elementary Data Structures</description>
     <contents>A linked list is a data structure in which the objects are arranged in a linear order.
@@ -94,7 +94,7 @@ not necessarily efficiently) all the operations listed on page 230.</contents>
     <year>2013</year>
     <month>11</month>
     <day>23</day>
-    <image>C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\bin\Debug\..\..\Images\NGPic.png</image>
+    <image>..\..\Images\NGPic.png</image>
     <category>National Geographic</category>
     <description>National Geographic</description>
     <contents>Tyrannosaurs reign as the most famous of all meat-eating dinosaurs. But they didn't always dominate, suggests the newly discovered bones of a massive carnivorous dinosaur that lived 98 million years ago.
@@ -126,7 +126,7 @@ With Siats at 98 million years old, he adds, the dinosaur "shows us that allosau
     <year>2013</year>
     <month>11</month>
     <day>19</day>
-    <image>C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\bin\Debug\..\..\Images\NGPic.png</image>
+    <image>..\..\Images\NGPic.png</image>
     <category>National Geographic</category>
     <description>National Geographic</description>
     <contents>Human-sacrifice rituals at an ancient Moche temple in Peru likely featured the killing of war captives from distant valleys, according to an analysis of bones and teeth at the site.
@@ -190,7 +190,7 @@ Overall, the findings are updating the view of the enigmatic Moche, who didn't l
     <year>2013</year>
     <month>11</month>
     <day>25</day>
-    <image>C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\bin\Debug\..\..\Images\NGPic.png</image>
+    <image>..\..\Images\NGPic.png</image>
     <category>Space</category>
     <description>National Geographic</description>
     <contents>As we head toward the final days of November, skywatchers spy pretty planetary and lunar pairings and a mythical hunter, while anxiously waiting to learn of the fate of comet ISON as it rounds the sun.
@@ -223,7 +223,7 @@ Winter Orion Rises. By mid-evening on Sunday, December 1, look towards the south
     <year>2013</year>
     <month>11</month>
     <day>11</day>
-    <image>C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\bin\Debug\..\..\Images\NGPic.png</image>
+    <image>..\..\Images\NGPic.png</image>
     <category>Space</category>
     <description>Space</description>
     <contents>“Fly me to the moon, let me play among the stars. Let me see what spring is like on Jupiter and Mars…” 
@@ -293,7 +293,7 @@ Correction: The saltwater ocean on Europa is 62 miles (100 km) deep, not the lay
     <year>2013</year>
     <month>10</month>
     <day>9</day>
-    <image>C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\bin\Debug\..\..\Images\NakovAlgPic.jpg</image>
+    <image>..\..\Images\NakovAlgPic.jpg</image>
     <category>Въведение в програмирането със C#</category>
     <description></description>
     <contents>История в няколко реда
@@ -339,7 +339,7 @@ Correction: The saltwater ocean on Europa is 62 miles (100 km) deep, not the lay
     <year>2013</year>
     <month>11</month>
     <day>12</day>
-    <image>C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\bin\Debug\..\..\Images\NakovAlgPic.jpg</image>
+    <image>..\..\Images\NakovAlgPic.jpg</image>
     <category>Въведение в програмирането със C#</category>
     <description>Какво е "цикъл"?</description>
     <contents>В програмирането често се налага многократно изпълнение на дадена последователност от операции. Цикъл (loop) е основна конструкция в програмирането, която позволява многократно изпълнение на даден фраг-мент сорс код. В зависимост от вида на цикъла, програмният код в него се повтаря или фиксиран брой пъти или докато е в сила дадено условие.
@@ -357,7 +357,7 @@ while (условие)
     <year>2013</year>
     <month>12</month>
     <day>5</day>
-    <image>C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\bin\Debug\..\..\Images\NakovAlgPic.jpg</image>
+    <image>..\..\Images\NakovAlgPic.jpg</image>
     <category>Въведение в програмирането със C#</category>
     <description></description>
     <contents>Какво представлява конзолата?
@@ -407,7 +407,7 @@ C# това е Console.Error).
     <year>2013</year>
     <month>12</month>
     <day>5</day>
-    <image>C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\bin\Debug\..\..\Images\NakovAlgPic.jpg</image>
+    <image>..\..\Images\NakovAlgPic.jpg</image>
     <category>Въведение в програмирането със C#</category>
     <description>Подпрограмите в програмирането</description>
     <contents>Подпрограмите в програмирането
@@ -448,7 +448,7 @@ return area;
     <year>2013</year>
     <month>12</month>
     <day>20</day>
-    <image>C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\bin\Debug\..\..\Images\NakovAlgPic.jpg</image>
+    <image>..\..\Images\NakovAlgPic.jpg</image>
     <category>Въведение в програмирането със C#</category>
     <description>Какво е рекурсия?</description>
     <contents>Какво е рекурсия?
@@ -506,7 +506,7 @@ return n * Factorial(n - 1);
     <year>2013</year>
     <month>10</month>
     <day>20</day>
-    <image>C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\bin\Debug\..\..\Images\ProgrAlgPic.jpg</image>
+    <image>..\..\Images\ProgrAlgPic.jpg</image>
     <category>Програмиране+=Алгоритми;</category>
     <description>Компютърна информатика, алгоритми и програмиране</description>
     <contents>Изкуственият интелект е добре известна материя, но спорове за това какво обхваща тя и какво точно представлява не липсват и днес. Въпросът в каква степен “интелектът” е свързан с компютърния потенциал е основен и в момента доминират главно две направления, които могат да бъдат обобщени накратко така:
@@ -524,7 +524,7 @@ return n * Factorial(n - 1);
     <year>2013</year>
     <month>10</month>
     <day>21</day>
-    <image>C:\Users\Stanev\Documents\SVN\HMTDPTeamLibraryProject\bin\Debug\..\..\Images\ProgrAlgPic.jpg</image>
+    <image>..\..\Images\ProgrAlgPic.jpg</image>
     <category>Програмиране+=Алгоритми;</category>
     <description>Въведение в алгоритмите</description>
     <contents>Ще разгледаме някои основни свойства, с помощта на които ще можем да определяме сложност на алгоритъм по дадена негова реализация на Си. Ще използваме T(код) за означаване сложността както на отделна операция, така и на програмен фрагмент. Понякога, когато кодът се подразбира, ще използваме означението T(n), за да покажем изрично, че сложността е функция на променливата n. Ще работим изключително с нотацията O(...). Оставяме на читателя да съобрази къде О(...) може да се замени с по-точната оценка (...).
