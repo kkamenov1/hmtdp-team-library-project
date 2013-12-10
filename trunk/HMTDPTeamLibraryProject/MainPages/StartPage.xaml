@@ -40,7 +40,7 @@
             <TextBox.Background>
                 <LinearGradientBrush Opacity="0.11">
                     <GradientStop Color="DarkSlateGray"  Offset="3"/>
-                    <GradientStop Color="Aquamarine" Offset="3"/>
+                    <GradientStop Color="Gray" Offset="3"/>
                 </LinearGradientBrush>
             </TextBox.Background>
         </TextBox>
@@ -71,7 +71,7 @@
                         <GradientStop Color="GreenYellow"/>
                     </LinearGradientBrush>
                 </Button.Background>
-                <Image Source="../Images/AllArticlesPic.png" Stretch="Fill" MaxHeight="100" MaxWidth="160"/>
+                <Image Source="../Images/AllArticlesPic.png"  MaxHeight="100" MaxWidth="100"/>
             </Button>
             <Button Grid.Row="1" Grid.Column="3" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center"  Name="MainButtonTwo" Click="OpenNewArticleClick" Height="120" Width="260" FontSize="30" ToolTipService.ToolTip="Write a new article" BorderBrush="DarkGreen"  BorderThickness="7" Margin="5,5,5,5">
                 <Button.Background>
@@ -81,7 +81,7 @@
                         <GradientStop Color="Aqua"/>
                     </LinearGradientBrush>
                 </Button.Background>
-                <Image Source="../Images/NewArticlePic.png" Stretch="Fill" MaxHeight="100" MaxWidth="160"/>
+                <Image Source="../Images/NewArticlePic.png"  MaxHeight="100" MaxWidth="160"/>
             </Button>
             <Button Grid.Row="1" Grid.Column="5" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center"  Name="MainButtonThree" Click="OnSearchClick" Height="130" Width="260" FontSize="30" ToolTipService.ToolTip="Open search article page" BorderBrush="BlanchedAlmond"  BorderThickness="7" Margin="5,5,5,5">
                 <Button.Background>
@@ -91,7 +91,7 @@
                         <GradientStop Color="#FFFF0000"/>
                     </LinearGradientBrush>
                 </Button.Background>
-                <Image Source="../Images/SearchArticlePic.png" Stretch="Fill" MaxHeight="100" MaxWidth="160"/>
+                <Image Source="../Images/SearchArticlePic.png"  MaxHeight="100" MaxWidth="160"/>
             </Button>
             <Button Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center"  Name="MainButtonFour" Click="OpenBooksButtonClick" Height="130" Width="270" FontSize="30"  BorderBrush="BlanchedAlmond" ToolTipService.ToolTip="Open all books page" BorderThickness="7" Margin="5,5,5,5">
                 <Button.Background>
@@ -101,7 +101,7 @@
                         <GradientStop Color="Azure"/>
                     </LinearGradientBrush>
                 </Button.Background>
-                <Image Source="../Images/AllBooksPic.png" Stretch="Fill" MaxHeight="100" MaxWidth="160"/>
+                <Image Source="../Images/AllBooksPic.png"  MaxHeight="100" MaxWidth="160"/>
             </Button>
             <Button Grid.Row="3" Grid.Column="4" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" Name="MainButtonFive" Click="OpenAuthorsPageClick" Height="130" Width="270" FontSize="30"  BorderBrush="BlanchedAlmond" ToolTipService.ToolTip="Open all authors page" BorderThickness="7" Margin="5,5,5,5">
                 <Button.Background>
@@ -111,7 +111,7 @@
                         <GradientStop Color="Bisque"/>
                     </LinearGradientBrush>
                 </Button.Background>
-                <Image Source="../Images/AllAuthorsPic.png" Stretch="Fill" MaxHeight="100" MaxWidth="160"/>
+                <Image Source="../Images/AllAuthorsPic.png"  MaxHeight="100" MaxWidth="160"/>
             </Button>
         </Grid>
 
