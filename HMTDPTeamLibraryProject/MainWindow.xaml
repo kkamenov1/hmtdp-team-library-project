@@ -4,7 +4,8 @@
         xmlns:WinForms="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
         Title="Cloud Reader" Height="540" Width="800"
         WindowStartupLocation="CenterScreen"
-        TextOptions.TextFormattingMode="Display" Icon="Images\HMTDPTeamLibraryProj.ico" 
+        TextOptions.TextFormattingMode="Display" 
+        Icon="Images\HMTDPTeamLibraryProj.ico"
         ResizeMode="CanMinimize">
     <DockPanel>
         <Frame x:Name="mainFrame">
@@ -48,10 +49,10 @@
                                 BorderBrush="{x:Null}"
                                 Visibility="Visible"
                                 FontFamily="Segoe UI Symbol" 
-                                Content="&#xE1B5;"
                                 Grid.ColumnSpan="3"
                                 Grid.Column="0"
                                 >
+                                
                                 <Button.Background>
 
                                     <ImageBrush ImageSource="pack://application:,,,/Images/Return.png"
@@ -69,7 +70,6 @@
                                 BorderBrush="{x:Null}"
                                 Visibility="Visible"
                                 FontFamily="Segoe UI Symbol" 
-                                Content="&#xE1B5;"
                                 Grid.ColumnSpan="3"
                                 Grid.Column="1"
                                 >
@@ -102,7 +102,6 @@
                                 BorderBrush="{x:Null}"
                                 Visibility="Visible"
                                 FontFamily="Segoe UI Symbol" 
-                                Content="&#xE1B5;"
                                 Grid.ColumnSpan="3"
                                 Grid.Column="4"
                                 >
@@ -121,7 +120,6 @@
                                 BorderBrush="{x:Null}"
                                 Visibility="Visible"
                                 FontFamily="Segoe UI Symbol" 
-                                Content="&#xE1B5;"
                                 Grid.ColumnSpan="3"
                                 Grid.Column="5"
                                 >
@@ -141,7 +139,6 @@
                                 BorderBrush="{x:Null}"
                                 Visibility="Visible"
                                 FontFamily="Segoe UI Symbol" 
-                                Content="&#xE1B5;"
                                 Grid.ColumnSpan="3"
                                 Grid.Column="6"
                                 >
@@ -160,7 +157,7 @@
                                 BorderBrush="{x:Null}"
                                 Visibility="Visible"
                                 FontFamily="Segoe UI Symbol" 
-                                Content="&#xE1B5;" Grid.Row="0" Grid.ColumnSpan="2" Grid.Column="7"
+                                Grid.Row="0" Grid.ColumnSpan="2" Grid.Column="7"
                                 >
                                 <Button.Background>
                                     <ImageBrush ImageSource="pack://application:,,,/Images/Info.png"/>
@@ -190,6 +187,9 @@
                                 BorderThickness="0"
                                 Background="Transparent"
                                 >
+                            <Border.Triggers>
+                                
+                            </Border.Triggers>
                             <ContentPresenter />
                         </Border>
                     </DockPanel>
