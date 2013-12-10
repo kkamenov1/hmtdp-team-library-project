@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace HMTDPTeamLibraryProject.ViewModels
 {
@@ -34,7 +35,12 @@ namespace HMTDPTeamLibraryProject.ViewModels
             }
             set
             {
+                if (value > 12 || value < 0)
+                {
+                    MessageBox.Show("You should insert a month value between 1 and 12!");
+                }
                 this.month = value;
+                
             }
         }
 
@@ -47,6 +53,10 @@ namespace HMTDPTeamLibraryProject.ViewModels
             }
             set
             {
+                if (value > 31 || value < 0)
+                {
+                    MessageBox.Show("You should insert a day value between 1 and 31!");
+                }
                 this.day = value;
             }
         }
